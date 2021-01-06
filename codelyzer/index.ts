@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-extraneous-dependencies -- this index.ts is in a sub-package
 import { Rules } from '@perfective/eslint-config/tslint';
 
 const functionality: Rules = {
