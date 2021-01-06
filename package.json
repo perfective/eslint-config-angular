@@ -23,18 +23,18 @@
         "url": "https://github.com/perfective/eslint-config-angular.git"
     },
     "license": "MIT",
-    "main": "./index.js",
+    "main": "./dist/index.js",
     "directories": {
-        "lib": "."
+        "lib": "./dist"
     },
     "files": [
-        "**/*.js",
-        "codelyzer/index.d.ts"
+        "dist/**/*.js",
+        "dist/codelyzer/index.d.ts"
     ],
     "scripts": {
         "build": "tsc",
         "build:clean": "npm run clean && npm run build",
-        "clean": "rimraf *.tsbuildinfo **/*.d.ts **/*.js **/*.map",
+        "clean": "rimraf *.tsbuildinfo ./dist",
         "lint": "npm run lint:eslint",
         "lint:eslint": "eslint --fix --ext .ts ./"
     },
