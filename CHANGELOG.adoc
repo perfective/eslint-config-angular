@@ -1,5 +1,11 @@
 = Changelog
 
+== v0.8.0 (next)
+
+* Updated `@perfective/eslint-config` to `0.11.0-alpha`.
+* Updated `@angular-eslint` to `1.0.0`.
+* Patched `eslint-plugin-jest-dom` to `3.6.5`.
+
 == v0.7.0
 
 * Added `@perfective/eslint-config-angular/template`
