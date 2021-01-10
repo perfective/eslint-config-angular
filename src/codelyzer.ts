@@ -1,7 +1,10 @@
-// eslint-disable-next-line import/no-extraneous-dependencies -- this index.ts is in a sub-package
-import { Rules } from '@perfective/eslint-config/tslint';
+import {
+    TsLintRules,
+    TypescriptEslintTslintConfig,
+    typescriptEslintTslintConfig as tsclintConfig,
+} from '@perfective/eslint-config/rules';
 
-const functionality: Rules = {
+const functionality: TsLintRules = {
     'template-accessibility-label-for': true,
 
     /** @deprecated - see @angular-eslint/template/mouse-events-have-key-events. */
@@ -11,21 +14,23 @@ const functionality: Rules = {
     'template-no-negated-async': true,
 };
 
-const maintainability: Rules = {
+const maintainability: TsLintRules = {
     'no-unused-css': true,
 
     /** @deprecated - see @angular-eslint/template/no-call-expression. */
     'template-no-call-expression': true,
 };
 
-const style: Rules = {
+const style: TsLintRules = {
     'angular-whitespace': false,
     'import-destructuring-spacing': true,
     'prefer-inline-decorator': false,
 };
 
-export const codelyzer: Rules = {
-    ...functionality,
-    ...maintainability,
-    ...style,
-};
+export function typescriptEslintTslintConfig(): TypescriptEslintTslintConfig {
+    return tsclintConfig({
+        ...functionality,
+        ...maintainability,
+        ...style,
+    }, ['codelyzer']);
+}

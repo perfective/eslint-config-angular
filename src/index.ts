@@ -1,6 +1,4 @@
-import { tslint } from '@perfective/eslint-config/tslint';
-
-import { codelyzer } from './codelyzer';
+import { typescriptEslintTslintConfig } from './codelyzer';
 
 export = {
     plugins: [
@@ -21,28 +19,22 @@ export = {
     ],
     rules: {
         // Legacy rules for TSLint and Codelyzer
-        '@typescript-eslint/tslint/config': ['warn', {
-            rules: {
-                ...tslint,
-                ...codelyzer,
-            },
-            rulesDirectory: [
-                'codelyzer',
-            ],
-        }],
+        '@typescript-eslint/tslint/config': ['warn', typescriptEslintTslintConfig()],
         // The default, Angular-friendly, configuration
-        'rxjs/finnish': ['error', {
-            functions: true,
-            methods: true,
-            names: {
-                '^(canActivate|canActivateChild|canDeactivate|canLoad|intercept|resolve|validate)$': false,
+        'rxjs/finnish': [
+            'error', {
+                functions: true,
+                methods: true,
+                names: {
+                    '^(canActivate|canActivateChild|canDeactivate|canLoad|intercept|resolve|validate)$': false,
+                },
+                parameters: true,
+                properties: true,
+                types: {
+                    '^EventEmitter$': false,
+                },
+                variables: true,
             },
-            parameters: true,
-            properties: true,
-            types: {
-                '^EventEmitter$': false,
-            },
-            variables: true,
-        }],
+        ],
     },
 };
