@@ -10,10 +10,9 @@ function copyPackageJson() {
             },
             files: [
                 '**/*.js',
-                'codelyzer/index.d.ts',
+                'rules.d.ts',
+                'rules/**/rules/*.d.ts',
             ],
-        }, {}, {
-            arrayMerge: (_dist, source, _options) => source,
         }))
         .pipe(dest('./dist/'));
 }

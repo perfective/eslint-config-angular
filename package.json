@@ -1,6 +1,6 @@
 {
     "name": "@perfective/eslint-config-angular",
-    "version": "0.8.0-alpha",
+    "version": "0.8.0-beta",
     "description": "ESLint shareable rules configuration for Angular",
     "keywords": [
         "angular",
@@ -23,14 +23,6 @@
         "url": "https://github.com/perfective/eslint-config-angular.git"
     },
     "license": "MIT",
-    "main": "./dist/index.js",
-    "directories": {
-        "lib": "./dist"
-    },
-    "files": [
-        "dist/**/*.js",
-        "dist/codelyzer/index.d.ts"
-    ],
     "scripts": {
         "build": "tsc --project tsconfig.build.json",
         "build:clean": "npm run clean && npm run build",
