@@ -27,10 +27,14 @@ const style: TsLintRules = {
     'prefer-inline-decorator': false,
 };
 
-export function typescriptEslintTslintConfig(): TypescriptEslintTslintConfig {
+export function typescriptEslintTslintConfig(
+    rules: TsLintRules = {},
+    directories: string[] = [],
+): TypescriptEslintTslintConfig {
     return tsclintConfig({
         ...functionality,
         ...maintainability,
         ...style,
-    }, ['codelyzer']);
+        ...rules,
+    }, ['codelyzer'].concat(directories));
 }
