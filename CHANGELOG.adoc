@@ -1,5 +1,9 @@
 = Changelog
 
+== v0.8.1
+
+* Fix: disabled `rxjs/finnish` in the `community` config.
+
 == v0.8.0
 
 * Updated `@perfective/eslint-config` to `0.11.1`.
