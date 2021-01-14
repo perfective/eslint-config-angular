@@ -8,7 +8,7 @@ import {
     unicornPreventAbbreviations,
 } from '@perfective/eslint-config/rules';
 
-import { typescriptEslintTslintConfig } from './codelyzer';
+import { typescriptEslintTslintConfig } from './rules/codelyzer';
 
 export {
     SimpleImportSortImports,

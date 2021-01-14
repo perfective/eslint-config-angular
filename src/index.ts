@@ -1,4 +1,4 @@
-import { typescriptEslintTslintConfig } from './codelyzer';
+import { typescriptEslintTslintConfig } from './rules/codelyzer';
 
 export = {
     plugins: [
