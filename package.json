@@ -33,7 +33,7 @@
         "lint:eslint": "eslint --fix --ext .ts ./"
     },
     "dependencies": {
-        "@perfective/eslint-config": "^0.11.0-beta.1"
+        "@perfective/eslint-config": "^0.11.1"
     },
     "peerDependencies": {
         "@angular-eslint/eslint-plugin": "^1.0.0",
