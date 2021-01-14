@@ -1,12 +1,13 @@
 = Changelog
 
-== v0.8.0 (next)
+== v0.8.0
 
-* Updated `@perfective/eslint-config` to `0.11.0-beta.1`.
+* Updated `@perfective/eslint-config` to `0.11.1`.
 * Updated `@angular-eslint` to `1.0.0`.
 * Patched `eslint-plugin-jest-dom` to `3.6.5`.
 * Replace `@perfective/eslint-config-angular/codelyzer`
 with `typescriptEslintTslintConfig` from `@perfective/eslint-config-angular/rules`.
+* Override `typescriptEslintNamingConvention` configuration.
 
 == v0.7.0
 
