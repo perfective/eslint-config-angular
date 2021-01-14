@@ -1,4 +1,5 @@
 import { typescriptEslintTslintConfig } from './rules/codelyzer';
+import { typescriptEslintNamingConvention } from './rules/eslint-config/rules/typescript-eslint';
 
 export = {
     plugins: [
@@ -18,6 +19,7 @@ export = {
         './rules/testing-library',
     ],
     rules: {
+        '@typescript-eslint/naming-convention': ['error', ...typescriptEslintNamingConvention()],
         // Legacy rules for TSLint and Codelyzer
         '@typescript-eslint/tslint/config': ['warn', typescriptEslintTslintConfig()],
         // The default, Angular-friendly, configuration

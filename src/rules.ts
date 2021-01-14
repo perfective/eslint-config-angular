@@ -4,7 +4,6 @@ import {
     TsLintRule,
     TsLintRules,
     TypescriptEslintNamingConvention,
-    typescriptEslintNamingConvention,
     TypescriptEslintNamingConventionFormat,
     TypescriptEslintNamingConventionGroupSelector,
     TypescriptEslintNamingConventionIndividualSelector,
@@ -17,6 +16,7 @@ import {
 } from '@perfective/eslint-config/rules';
 
 import { typescriptEslintTslintConfig } from './rules/codelyzer';
+import { typescriptEslintNamingConvention } from './rules/eslint-config/rules/typescript-eslint';
 
 export {
     SimpleImportSortImports,
