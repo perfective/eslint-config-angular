@@ -9,8 +9,7 @@ This package extends the
 `@perfective/eslint-config-angular` uses the following ESLint plugins:
 
 * `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint/eslint-plugin]`;
-* `link:https://github.com/cartant/eslint-plugin-rxjs-angular[eslint-plugin-rxjs-angular]`;
-* `link:https://github.com/testing-library/eslint-plugin-testing-library[eslint-plugin-testing-library]`.
+* `link:https://github.com/cartant/eslint-plugin-rxjs-angular[eslint-plugin-rxjs-angular]`.
 
 
 == Setup

@@ -26,13 +26,6 @@ export = {
             ],
         },
         {
-            // Default extensions supported by Jest (/\.(spec|test)\.[jt]sx?$/)
-            files: ['*.spec.ts', '*.spec.tsx', '*.test.ts', '*.test.tsx'],
-            extends: [
-                './rules/testing-library',
-            ],
-        },
-        {
             files: ['*.component.html'],
             parser: '@angular-eslint/template-parser',
             extends: [
