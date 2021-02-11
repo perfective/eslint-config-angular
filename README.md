@@ -9,7 +9,6 @@ This package is based on the
 `@perfective/eslint-config-angular` uses the following ESLint plugins:
 
 * [`@angular-eslint/eslint-plugin`](https://github.com/angular-eslint/angular-eslint);
-* [`eslint-plugin-jest-dom`](https://github.com/testing-library/eslint-plugin-jest-dom);
 * [`eslint-plugin-rxjs-angular`](https://github.com/cartant/eslint-plugin-rxjs-angular);
 * [`eslint-plugin-testing-library`](https://github.com/testing-library/eslint-plugin-testing-library).
 

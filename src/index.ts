@@ -29,7 +29,6 @@ export = {
             // Default extensions supported by Jest (/\.(spec|test)\.[jt]sx?$/)
             files: ['*.spec.ts', '*.spec.tsx', '*.test.ts', '*.test.tsx'],
             extends: [
-                './rules/jest-dom',
                 './rules/testing-library',
             ],
         },
