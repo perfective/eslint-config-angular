@@ -6,17 +6,17 @@ import {
 
 const functionality: TsLintRules = {
 
-    /** @deprecated - see @angular-eslint/template/mouse-events-have-key-events. */
+    /** @deprecated - See @angular-eslint/template/mouse-events-have-key-events. */
     'template-mouse-events-have-key-events': true,
 
-    /** @deprecated - see @angular-eslint/template/no-negated-async. */
+    /** @deprecated - See @angular-eslint/template/no-negated-async. */
     'template-no-negated-async': true,
 };
 
 const maintainability: TsLintRules = {
     'no-unused-css': true,
 
-    /** @deprecated - see @angular-eslint/template/no-call-expression. */
+    /** @deprecated - See @angular-eslint/template/no-call-expression. */
     'template-no-call-expression': true,
 };
 

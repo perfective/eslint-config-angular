@@ -29,6 +29,7 @@ npm install --save-dev \
     eslint \
     eslint-import-resolver-typescript \
     eslint-plugin-array-func \
+    eslint-plugin-cypress \
     eslint-plugin-deprecation \
     eslint-plugin-eslint-comments \
     eslint-plugin-import \
