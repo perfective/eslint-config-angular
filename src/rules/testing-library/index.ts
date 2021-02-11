@@ -1,4 +1,7 @@
 export = {
+    plugins: [
+        'testing-library',
+    ],
     rules: {
         'testing-library/await-async-query': 'error',
         'testing-library/await-async-utils': 'error',

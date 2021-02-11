@@ -1,4 +1,7 @@
 export = {
+    plugins: [
+        'rxjs-angular',
+    ],
     rules: {
         'rxjs-angular/prefer-async-pipe': 'error',
         'rxjs-angular/prefer-composition': 'off',

@@ -1,4 +1,7 @@
 export = {
+    plugins: [
+        'jest-dom',
+    ],
     rules: {
         'jest-dom/prefer-checked': 'warn',
         'jest-dom/prefer-empty': 'warn',
