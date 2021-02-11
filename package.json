@@ -44,9 +44,9 @@
         "eslint-plugin-testing-library": "^3.10.1"
     },
     "devDependencies": {
-        "@angular-eslint/eslint-plugin": "1.0.0",
-        "@angular-eslint/eslint-plugin-template": "1.0.0",
-        "@angular-eslint/template-parser": "1.0.0",
+        "@angular-eslint/eslint-plugin": "1.2.0",
+        "@angular-eslint/eslint-plugin-template": "1.2.0",
+        "@angular-eslint/template-parser": "1.2.0",
         "@types/jest": "26.0.20",
         "@typescript-eslint/eslint-plugin": "4.12.0",
         "@typescript-eslint/eslint-plugin-tslint": "4.12.0",

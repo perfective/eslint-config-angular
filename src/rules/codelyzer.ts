@@ -5,7 +5,6 @@ import {
 } from '@perfective/eslint-config/rules';
 
 const functionality: TsLintRules = {
-    'template-accessibility-label-for': true,
 
     /** @deprecated - see @angular-eslint/template/mouse-events-have-key-events. */
     'template-mouse-events-have-key-events': true,

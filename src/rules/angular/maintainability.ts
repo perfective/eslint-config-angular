@@ -19,6 +19,6 @@ export = {
         '@angular-eslint/use-component-selector': 'error',
         '@angular-eslint/use-component-view-encapsulation': 'error',
         '@angular-eslint/use-pipe-decorator': 'error',
-        '@angular-eslint/use-pipe-transform-interface': 'error',
+        '@angular-eslint/use-pipe-transform-interface': 'warn',
     },
 };
