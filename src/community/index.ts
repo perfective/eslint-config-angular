@@ -4,8 +4,13 @@ export = {
         '@perfective/eslint-config/community',
         '../rules/eslint-config',
     ],
-    rules: {
-        // Undesired behavior in functions like forkJoin
-        'rxjs/finnish': 'off',
-    },
+    overrides: [
+        {
+            files: ['*.ts'],
+            rules: {
+                // Undesired behavior in functions like forkJoin
+                'rxjs/finnish': 'off',
+            },
+        },
+    ],
 };
