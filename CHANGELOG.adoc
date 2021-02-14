@@ -3,11 +3,14 @@
 == v0.9.0 (next)
 
 * Updated `@perfective/eslint-config` to `0.12.0`.
-* Split configuration based on file extensions:
-** `@perfective/eslint-config-angular/template` and `@perfective/eslint-config-angular/community/template`
-are merged into the `@perfective/eslint-config-angular` and `@perfective/eslint-config-angular/community`.
-* Plugins `eslint-plugin-jest-dom` and `eslint-plugin-testing-library` are included,
-but are now managed by the `@perfective/eslint-config` package.
+** `@perfective/eslint-config-angular/community` is removed.
+** Added support for JS files and `eslint-plugin-cypress`.
+** Plugins `eslint-plugin-jest-dom` and `eslint-plugin-testing-library`
+are now managed by the `@perfective/eslint-config` package.
++
+* Configuration is based on file extensions:
+** `@perfective/eslint-config-angular/template` is merged into the `@perfective/eslint-config-angular`.
++
 * Updated plugins:
 ** `@angular-eslint` to `1.2.0`;
 ** `eslint-plugin-rxjs-angular` to `1.0.4`.
