@@ -17,6 +17,7 @@ This package is based on the
 ```bash
 npm install --save-dev \
     @perfective/eslint-config-angular \
+    @babel/eslint-parser \
     @angular-eslint/eslint-plugin \
     @angular-eslint/eslint-plugin-template \
     @angular-eslint/template-parser \
