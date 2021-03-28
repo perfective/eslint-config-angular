@@ -1,0 +1,5 @@
+= Perfective ESLint Config for Angular
+:toc: left
+:toclevels: 2
+:icons: font
+:sourcedir: ./
