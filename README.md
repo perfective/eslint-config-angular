@@ -44,8 +44,7 @@ npm install --save-dev \
     eslint-plugin-sonarjs \
     eslint-plugin-testing-library \
     eslint-plugin-unicorn \
-    tslint \
-    codelyzer
+    tslint
 ```
 
 2. Require the configuration in your root `.eslintrc.js` or `.eslintrc.json`.
@@ -65,15 +64,6 @@ module.exports = {
 ```
 
 Run `eslint --config .eslintrc.html.js --no-eslintrc .` to lint Angular templates.
-
-## TSLint
-
-While the [`@angular-eslint/eslint-plugin`](https://github.com/angular-eslint/angular-eslint) is
-still in active development,
-[Codelyzer](https://github.com/mgechev/codelyzer) is used to increase the quality coverage.
-It's based on the deprecated [TSLint](https://palantir.github.io/tslint/).
-TSLint rules are executed using the
-[ESLint Plugin TSLint](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin-tslint).
 
 Read the [full documentation](https://github.com/perfective/estlint-config-angular/blob/master/README.adoc) 
 in the repository.

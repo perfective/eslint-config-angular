@@ -15,7 +15,6 @@ import {
     unicornPreventAbbreviations,
 } from '@perfective/eslint-config/rules';
 
-import { typescriptEslintTslintConfig } from './rules/codelyzer';
 import { typescriptEslintNamingConvention } from './rules/eslint-config/rules/typescript-eslint';
 
 export {
@@ -31,7 +30,6 @@ export {
     TypescriptEslintNamingConventionSelector,
     TypescriptEslintNamingConventionUnderscore,
     TypescriptEslintTslintConfig,
-    typescriptEslintTslintConfig,
     UnicornPreventAbbreviationReplacements,
     UnicornPreventAbbreviations,
     unicornPreventAbbreviations,

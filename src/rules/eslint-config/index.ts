@@ -1,5 +1,3 @@
-import { typescriptEslintTslintConfig } from '../codelyzer';
-
 import { typescriptEslintNamingConvention } from './rules/typescript-eslint';
 
 export = {
@@ -7,8 +5,6 @@ export = {
         // Conflicts with decorators
         'new-cap': 'off',
         '@typescript-eslint/naming-convention': ['error', ...typescriptEslintNamingConvention()],
-        // Legacy rules for TSLint and Codelyzer
-        '@typescript-eslint/tslint/config': ['warn', typescriptEslintTslintConfig()],
         // The default, Angular-friendly, configuration
         'rxjs/finnish': ['error', {
             functions: true,
