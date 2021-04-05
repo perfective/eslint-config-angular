@@ -1,0 +1,298 @@
+= `@angular-eslint`
+
+The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plugin provides linting rules for Angular.
+
+== Functionality
+
+[cols="~,1,1,1"]
+|===
+| Rule | Recommended | Fixable | Config
+
+| `@angular-eslint/contextual-decorator`
+|
+|
+| Error
+
+| `@angular-eslint/contextual-lifecycle`
+|
+|
+| Error
+
+| `@angular-eslint/no-attribute-decorator`
+|
+|
+| Error
+
+| `@angular-eslint/no-lifecycle-call`
+|
+|
+| Error
+
+| `@angular-eslint/no-output-native`
+|
+|
+| Error
+
+| `@angular-eslint/no-pipe-impure`
+|
+|
+| Error
+
+| `@angular-eslint/prefer-on-push-component-change-detection`
+|
+|
+| Error
+
+| `@angular-eslint/use-injectable-provided-in`
+|
+|
+| Error
+
+| `@angular-eslint/use-lifecycle-interface`
+|
+|
+| Error
+
+|===
+
+
+== Maintainability
+
+[cols="~,1,1,1"]
+|===
+| Rule | Recommended | Fixable | Config
+
+| `@angular-eslint/component-max-inline-declarations`
+|
+|
+| Error
+
+| `@angular-eslint/no-conflicting-lifecycle`
+|
+|
+| Error
+
+| `@angular-eslint/no-forward-ref`
+|
+|
+| Error
+
+| `@angular-eslint/no-input-prefix`
+|
+|
+| Error
+
+| `@angular-eslint/no-input-rename`
+|
+|
+| Off
+
+| `@angular-eslint/no-output-on-prefix`
+|
+|
+| Error
+
+| `@angular-eslint/no-output-rename`
+|
+|
+| Error
+
+| `@angular-eslint/prefer-output-readonly`
+|
+|
+| Error
+
+| `@angular-eslint/relative-url-prefix`
+|
+|
+| Error
+
+| `@angular-eslint/use-component-selector`
+|
+|
+| Error
+
+| `@angular-eslint/use-component-view-encapsulation`
+|
+|
+| Error
+
+| `@angular-eslint/use-pipe-transform-interface`
+|
+|
+| Warn
+
+|===
+
+
+== Style
+
+[cols="~,1,1,1"]
+|===
+| Rule | Recommended | Fixable | Config
+
+| `@angular-eslint/component-class-suffix`
+|
+|
+| Error
+
+| `@angular-eslint/component-selector`
+|
+|
+| Error
+
+| `@angular-eslint/directive-class-suffix`
+|
+|
+| Error
+
+| `@angular-eslint/directive-selector`
+|
+|
+| Error
+
+| `@angular-eslint/no-host-metadata-property`
+|
+|
+| Error
+
+| `@angular-eslint/no-inputs-metadata-property`
+|
+|
+| Error
+
+| `@angular-eslint/no-outputs-metadata-property`
+|
+|
+| Error
+
+| `@angular-eslint/no-queries-metadata-property`
+|
+|
+| Error
+
+| `@angular-eslint/pipe-prefix`
+|
+|
+| Error
+
+|===
+
+
+== Template
+
+[cols="~,1,1,1"]
+|===
+| Rule | Recommended | Fixable | Config
+
+| `@angular-eslint/template/accessibility-alt-text`
+|
+|
+| Error
+
+| `@angular-eslint/template/accessibility-elements-content`
+|
+|
+| Error
+
+| `@angular-eslint/template/accessibility-label-for`
+|
+|
+| Error
+
+| `@angular-eslint/template/accessibility-table-scope`
+|
+|
+| Error
+
+| `@angular-eslint/template/accessibility-valid-aria`
+|
+|
+| Error
+
+| `@angular-eslint/template/banana-in-box`
+|
+|
+| Warn
+
+| `@angular-eslint/template/click-events-have-key-events`
+|
+|
+| Error
+
+| `@angular-eslint/template/mouse-events-have-key-events`
+|
+|
+| Error
+
+| `@angular-eslint/template/no-any`
+|
+|
+| Error
+
+| `@angular-eslint/template/no-autofocus`
+|
+|
+| Error
+
+| `@angular-eslint/template/no-distracting-elements`
+|
+|
+| Error
+
+| `@angular-eslint/template/no-duplicate-attributes`
+|
+|
+| Error
+
+| `@angular-eslint/template/no-negated-async`
+|
+|
+| Off
+4+| Fails with `Cannot read property 'start' of undefined`
+
+| `@angular-eslint/template/no-positive-tabindex`
+|
+|
+| Error
+
+| `@angular-eslint/template/conditional-complexity`
+|
+|
+| Error
+
+| `@angular-eslint/template/cyclomatic-complexity`
+|
+|
+| Off
+
+| `@angular-eslint/template/i18n`
+|
+|
+| Off
+
+| `@angular-eslint/template/no-call-expression`
+|
+|
+| Off
+4+| Fails with `Cannot read property 'start' of undefined`
+
+| `@angular-eslint/template/use-track-by-function`
+|
+|
+| Error
+
+|===
+
+== Best Practices
+
+[cols="~,1,1,1"]
+|===
+| Rule | Recommended | Fixable | Config
+
+| `@angular-eslint/no-empty-lifecycle-method`
+|
+|
+| Error
+
+|===
