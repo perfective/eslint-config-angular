@@ -1,5 +1,11 @@
 = Changelog
 
+== v0.10.1
+
+* Updated `@angular-eslint` to `2.1.1`:
+** Enabled `@angular-eslint/sort-ngmodule-metadata-arrays` as an error.
+
+
 == v0.10.0
 
 * *Breaking*: upgraded `@angular-eslint` to `2.0.2`:
@@ -9,6 +15,7 @@
 +
 * Updated `@perfective/eslint-config` to `0.13.1`.
 * Updated `eslint-plugin-rxjs-angular` to `1.0.6`.
+
 
 == v0.9.0
 
