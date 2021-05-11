@@ -107,7 +107,7 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
-| `@angular-eslint/use-component-selector`
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin/docs/rules/component-selector.md[@angular-eslint/use-component-selector]`
 |
 |
 | Error
@@ -120,7 +120,7 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | `@angular-eslint/use-pipe-transform-interface`
 |
 |
-| Warn
+| Warning
 
 |===
 
@@ -131,7 +131,7 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |===
 | Rule | Recommended | Fixable | Config
 
-| `@angular-eslint/component-class-suffix`
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin/docs/rules/component-class-suffix.md[@angular-eslint/component-class-suffix]`
 |
 |
 | Error
@@ -213,7 +213,7 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | `@angular-eslint/template/banana-in-box`
 |
 |
-| Warn
+| Warning
 
 | `@angular-eslint/template/click-events-have-key-events`
 |
@@ -291,6 +291,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Rule | Recommended | Fixable | Config
 
 | `@angular-eslint/no-empty-lifecycle-method`
+|
+|
+| Error
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin/docs/rules/sort-ngmodule-metadata-arrays.md[@angular-eslint/sort-ngmodule-metadata-arrays]`
 |
 |
 | Error
