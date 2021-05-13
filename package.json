@@ -28,7 +28,7 @@
         "test": "jest"
     },
     "dependencies": {
-        "@perfective/eslint-config": "~0.14.0-beta"
+        "@perfective/eslint-config": "~0.14.0"
     },
     "peerDependencies": {
         "@angular-eslint/eslint-plugin": "^4.2.0",
