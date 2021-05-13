@@ -1,9 +1,9 @@
 = Changelog
 
-== v0.11.0 (next)
+== v0.11.0
 
 * Updated `@perfective/eslint-config` to `0.14.0`.
-* Upgraded `@angular-eslint` to `4.2.0`.
+* Upgraded `@angular-eslint` to `4.2.1`.
 
 
 == v0.10.1
