@@ -8,12 +8,13 @@ This package is based on the
 
 `@perfective/eslint-config-angular` uses the following ESLint plugins:
 
-* [`@angular-eslint/eslint-plugin`](https://github.com/angular-eslint/angular-eslint);
-* [`eslint-plugin-rxjs-angular`](https://github.com/cartant/eslint-plugin-rxjs-angular).
+-   [`@angular-eslint/eslint-plugin`](https://github.com/angular-eslint/angular-eslint);
+-   [`eslint-plugin-rxjs-angular`](https://github.com/cartant/eslint-plugin-rxjs-angular).
 
 ## Setup
 
 1. Require `@perfective/eslint-config-angular` and its peer dependencies as dev dependencies:
+
 ```bash
 npm install --save-dev \
     @perfective/eslint-config-angular \
@@ -48,22 +49,22 @@ npm install --save-dev \
 ```
 
 2. Require the configuration in your root `.eslintrc.js` or `.eslintrc.json`.
+
 ```json
 {
-    "extends": [
-        "@perfective/eslint-config-angular"
-    ]
+    "extends": ["@perfective/eslint-config-angular"]
 }
 ```
 
 3. Use a separate `.eslintrc.html.js` to lint Angular templates.
+
 ```js
 module.exports = {
     extends: ['@perfective/eslint-config-angular/template'],
-}
+};
 ```
 
 Run `eslint --config .eslintrc.html.js --no-eslintrc .` to lint Angular templates.
 
-Read the [full documentation](https://github.com/perfective/estlint-config-angular/blob/master/README.adoc) 
+Read the [full documentation](https://github.com/perfective/estlint-config-angular/blob/master/README.adoc)
 in the repository.
