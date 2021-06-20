@@ -1,5 +1,16 @@
 = Changelog
 
+== v0.12.0 (next)
+
+* Updated `@perfective/eslint-config` to `0.15.0-beta`.
++
+* Upgraded `@angular-eslint` to `12.2.0`:
+** Enabled `@angular-eslint/template/eqeqeq` as a warning;
+** Switched `@angular-eslint/template/no-autofocus` into a warning;
+** Switched `@angular-eslint/template/no-distracting-elements` into a warning;
+** Switched `@angular-eslint/sort-ngmodule-metadata-arrays` into a warning.
+
+
 == v0.11.0
 
 * Updated `@perfective/eslint-config` to `0.14.0`.
