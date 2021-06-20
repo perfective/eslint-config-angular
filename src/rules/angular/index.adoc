@@ -185,11 +185,6 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |===
 | Rule | Recommended | Fixable | Config
 
-| `@angular-eslint/template/accessibility-label-has-associated-control`
-|
-|
-| Error
-
 | `@angular-eslint/template/accessibility-alt-text`
 |
 |
@@ -201,6 +196,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Error
 
 | `@angular-eslint/template/accessibility-label-for`
+|
+|
+| Error
+
+| `@angular-eslint/template/accessibility-label-has-associated-control`
 |
 |
 | Error
@@ -225,6 +225,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `@angular-eslint/template/eqeqeq`
+|
+| Yes
+| Warning
+
 | `@angular-eslint/template/mouse-events-have-key-events`
 |
 |
@@ -237,13 +242,13 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 
 | `@angular-eslint/template/no-autofocus`
 |
-|
-| Error
+| Yes
+| Warning
 
 | `@angular-eslint/template/no-distracting-elements`
 |
-|
-| Error
+| Yes
+| Warning
 
 | `@angular-eslint/template/no-duplicate-attributes`
 |
@@ -302,7 +307,7 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin/docs/rules/sort-ngmodule-metadata-arrays.md[@angular-eslint/sort-ngmodule-metadata-arrays]`
 |
-|
-| Error
+| Yes
+| Warning
 
 |===

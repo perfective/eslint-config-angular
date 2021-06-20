@@ -10,7 +10,9 @@ export = {
         '@angular-eslint/no-input-prefix': ['error', {
             prefixes: ['can', 'is', 'on', 'should'],
         }],
-        '@angular-eslint/no-input-rename': 'off',
+        '@angular-eslint/no-input-rename': ['off', {
+            allowedNames: [],
+        }],
         '@angular-eslint/no-output-on-prefix': 'error',
         '@angular-eslint/no-output-rename': 'error',
         '@angular-eslint/prefer-output-readonly': 'error',

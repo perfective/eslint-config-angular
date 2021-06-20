@@ -13,7 +13,9 @@ export = {
             prefix: 'pf',
             style: 'camelCase',
         }],
-        '@angular-eslint/no-host-metadata-property': 'error',
+        '@angular-eslint/no-host-metadata-property': ['error', {
+            allowStatic: false,
+        }],
         '@angular-eslint/no-inputs-metadata-property': 'error',
         '@angular-eslint/no-outputs-metadata-property': 'error',
         '@angular-eslint/no-queries-metadata-property': 'error',
