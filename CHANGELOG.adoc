@@ -1,5 +1,11 @@
 = Changelog
 
+== v0.11.1
+
+* Updated `@angular-eslint` to `4.3.0`:
+** Enabled `@angular-eslint/template/accessibility-label-has-associated-control` as an error.
+
+
 == v0.11.0
 
 * Updated `@perfective/eslint-config` to `0.14.0`.
