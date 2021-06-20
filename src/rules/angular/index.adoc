@@ -185,6 +185,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |===
 | Rule | Recommended | Fixable | Config
 
+| `@angular-eslint/template/accessibility-label-has-associated-control`
+|
+|
+| Error
+
 | `@angular-eslint/template/accessibility-alt-text`
 |
 |
