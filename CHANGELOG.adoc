@@ -2,7 +2,7 @@
 
 == v0.12.0 (next)
 
-* Updated `@perfective/eslint-config` to `0.15.0-beta`.
+* Updated `@perfective/eslint-config` to `0.15.0-beta.1`.
 +
 * Upgraded `@angular-eslint` to `12.2.0`:
 ** Enabled `@angular-eslint/template/eqeqeq` as a warning;
