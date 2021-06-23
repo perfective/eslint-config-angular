@@ -66,5 +66,5 @@ module.exports = {
 
 Run `eslint --config .eslintrc.html.js --no-eslintrc .` to lint Angular templates.
 
-Read the [full documentation](https://github.com/perfective/estlint-config-angular/blob/master/README.adoc)
+Read the [full documentation](https://github.com/perfective/estlint-config-angular/blob/main/README.adoc)
 in the repository.
