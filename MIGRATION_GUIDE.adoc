@@ -4,7 +4,10 @@ Migration between minor versions follows the same steps:
 
 . Update `@perfective/eslint-config-angular` and its peer dependencies.
 . Disable all new rules.
-. Gradually enable the new rules checking for the regressions.
+. Gradually enable the new rules:
+** remove one or more rules from the list;
+** fix errors or check auto-fixes of warnings;
+** check for the regressions.
 
 
 == From `v0.12.0` to `v0.12.1-alpha.1`
@@ -35,8 +38,8 @@ module.exports = {
                 'unicorn/no-useless-fallback-in-spread': 'off',
                 'unicorn/no-useless-length-check': 'off',
                 'unicorn/no-useless-spread': 'off',
-            }
-        }
-    ]
+            },
+        },
+    ],
 };
 ----
