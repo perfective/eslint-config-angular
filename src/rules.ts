@@ -1,4 +1,5 @@
-import {
+export { typescriptEslintNamingConvention } from './rules/eslint-config/rules/typescript-eslint';
+export {
     cypressImportNoExtraneousDependencies,
     ImportNoExtraneousDependencies,
     importNoExtraneousDependencies,
@@ -20,29 +21,3 @@ import {
     UnicornPreventAbbreviations,
     unicornPreventAbbreviations,
 } from '@perfective/eslint-config/rules';
-
-import { typescriptEslintNamingConvention } from './rules/eslint-config/rules/typescript-eslint';
-
-export {
-    cypressImportNoExtraneousDependencies,
-    ImportNoExtraneousDependencies,
-    importNoExtraneousDependencies,
-    jestImportNoExtraneousDependencies,
-    jsImportNoExtraneousDependencies,
-    SimpleImportSortImports,
-    simpleImportSortImports,
-    TsLintRule,
-    TsLintRules,
-    TypescriptEslintNamingConvention,
-    typescriptEslintNamingConvention,
-    TypescriptEslintNamingConventionFormat,
-    TypescriptEslintNamingConventionGroupSelector,
-    TypescriptEslintNamingConventionIndividualSelector,
-    TypescriptEslintNamingConventionSelector,
-    TypescriptEslintNamingConventionUnderscore,
-    TypescriptEslintTslintConfig,
-    typescriptEslintTslintConfig,
-    UnicornPreventAbbreviationReplacements,
-    UnicornPreventAbbreviations,
-    unicornPreventAbbreviations,
-};
