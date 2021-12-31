@@ -10,7 +10,7 @@ Migration between minor versions follows the same steps:
 ** check for the regressions.
 
 
-== From `v0.12.0` to `v0.12.1-beta`
+== From `v0.12.0` to `v0.12.1`
 
 .`.eslintrc.js`
 [source,js]

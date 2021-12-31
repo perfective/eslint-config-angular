@@ -1,6 +1,6 @@
 {
     "name": "@perfective/eslint-config-angular",
-    "version": "0.12.1-beta",
+    "version": "0.12.1",
     "description": "ESLint shareable rules configuration for Angular",
     "keywords": [
         "angular",
