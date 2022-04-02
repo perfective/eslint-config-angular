@@ -1,8 +1,8 @@
 = Changelog
 
-== v0.13.0-beta (next)
+== v0.13.0
 
-* Updated `@perfective/eslint-config` to `0.17.0-beta`.
+* Updated `@perfective/eslint-config` to `0.17.0`.
 * Upgraded `@angular-eslint` to `13.1.0`.
 * Upgraded `eslint-plugin-rxjs-angular` to `2.0.0`.
 
