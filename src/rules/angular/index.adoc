@@ -56,7 +56,8 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-label-for.md[@angular-eslint/template/accessibility-label-for]`
 |
 |
-| Error
+| Off
+4+| This rule is deprecated. Use `@angular-eslint/teamplate/accessibility-label-has-associated-control` instead.
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-table-scope.md[@angular-eslint/template/accessibility-table-scope]`
 |

@@ -2,7 +2,7 @@ export = {
     rules: {
         '@angular-eslint/template/accessibility-alt-text': 'error',
         '@angular-eslint/template/accessibility-elements-content': 'error',
-        '@angular-eslint/template/accessibility-label-for': 'error',
+        '@angular-eslint/template/accessibility-label-for': 'off',
         '@angular-eslint/template/accessibility-table-scope': 'warn',
         '@angular-eslint/template/accessibility-valid-aria': 'error',
         '@angular-eslint/template/banana-in-box': 'warn',
