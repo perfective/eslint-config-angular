@@ -43,6 +43,72 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-alt-text.md[@angular-eslint/template/accessibility-alt-text]`
+|
+|
+| Error
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-elements-content.md[@angular-eslint/template/accessibility-elements-content]`
+|
+|
+| Error
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-label-for.md[@angular-eslint/template/accessibility-label-for]`
+|
+|
+| Error
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-table-scope.md[@angular-eslint/template/accessibility-table-scope]`
+|
+|
+| Error
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-valid-aria.md[@angular-eslint/template/accessibility-valid-aria]`
+|
+|
+| Error
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/banana-in-box.md[@angular-eslint/template/banana-in-box]`
+|
+|
+| Warning
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/click-events-have-key-events.md[@angular-eslint/template/click-events-have-key-events]`
+|
+|
+| Error
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/mouse-events-have-key-events.md[@angular-eslint/template/mouse-events-have-key-events]`
+|
+|
+| Error
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/no-any.md[@angular-eslint/template/no-any]`
+|
+|
+| Error
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/no-autofocus.md[@angular-eslint/template/no-autofocus]`
+|
+| Yes
+| Warning
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/no-distracting-elements.md[@angular-eslint/template/no-distracting-elements]`
+|
+| Yes
+| Warning
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/no-negated-async.md[@angular-eslint/template/no-negated-async]`
+|
+|
+| Off
+4+| Fails with `Cannot read property 'start' of undefined`
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/no-positive-tabindex.md[@angular-eslint/template/no-positive-tabindex]`
+|
+|
+| Error
+
 | `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin/docs/rules/use-injectable-provided-in.md[@angular-eslint/use-injectable-provided-in]`
 |
 |
@@ -107,7 +173,33 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin/docs/rules/component-selector.md[@angular-eslint/use-component-selector]`
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/conditional-complexity.md[@angular-eslint/template/conditional-complexity]`
+|
+|
+| Error
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/cyclomatic-complexity.md[@angular-eslint/template/cyclomatic-complexity]`
+|
+|
+| Off
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/i18n.md[@angular-eslint/template/i18n]`
+|
+|
+| Off
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/no-call-expression.md[@angular-eslint/template/no-call-expression]`
+|
+|
+| Off
+4+| Fails with `Cannot read property 'start' of undefined`
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/use-track-by-function.md[@angular-eslint/template/use-track-by-function]`
+|
+|
+| Error
+
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin/docs/rules/use-component-selector.md[@angular-eslint/use-component-selector]`
 |
 |
 | Error
@@ -185,42 +277,7 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |===
 | Rule | Recommended | Fixable | Config
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-alt-text.md[@angular-eslint/template/accessibility-alt-text]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-elements-content.md[@angular-eslint/template/accessibility-elements-content]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-label-for.md[@angular-eslint/template/accessibility-label-for]`
-|
-|
-| Error
-
 | `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-label-has-associated-control.md[@angular-eslint/template/accessibility-label-has-associated-control]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-table-scope.md[@angular-eslint/template/accessibility-table-scope]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-valid-aria.md[@angular-eslint/template/accessibility-valid-aria]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/banana-in-box.md[@angular-eslint/template/banana-in-box]`
-|
-|
-| Warning
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/click-events-have-key-events.md[@angular-eslint/template/click-events-have-key-events]`
 |
 |
 | Error
@@ -230,71 +287,14 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Yes
 | Warning
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/mouse-events-have-key-events.md[@angular-eslint/template/mouse-events-have-key-events]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/no-any.md[@angular-eslint/template/no-any]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/no-autofocus.md[@angular-eslint/template/no-autofocus]`
-|
-| Yes
-| Warning
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/no-distracting-elements.md[@angular-eslint/template/no-distracting-elements]`
-|
-| Yes
-| Warning
-
 | `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/no-duplicate-attributes.md[@angular-eslint/template/no-duplicate-attributes]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/no-negated-async.md[@angular-eslint/template/no-negated-async]`
-|
-|
-| Off
-4+| Fails with `Cannot read property 'start' of undefined`
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/no-positive-tabindex.md[@angular-eslint/template/no-positive-tabindex]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/conditional-complexity.md[@angular-eslint/template/conditional-complexity]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/cyclomatic-complexity.md[@angular-eslint/template/cyclomatic-complexity]`
-|
-|
-| Off
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/i18n.md[@angular-eslint/template/i18n]`
-|
-|
-| Off
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/no-call-expression.md[@angular-eslint/template/no-call-expression]`
-|
-|
-| Off
-4+| Fails with `Cannot read property 'start' of undefined`
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/use-track-by-function.md[@angular-eslint/template/use-track-by-function]`
 |
 |
 | Error
 
 |===
 
-== Best Practices
+== Other
 
 [cols="~,1,1,1"]
 |===
