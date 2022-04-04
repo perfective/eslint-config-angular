@@ -60,8 +60,8 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-table-scope.md[@angular-eslint/template/accessibility-table-scope]`
 |
-|
-| Error
+| Yes
+| Warning
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-valid-aria.md[@angular-eslint/template/accessibility-valid-aria]`
 |
