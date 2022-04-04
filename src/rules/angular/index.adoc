@@ -305,6 +305,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin/docs/rules/require-localize-metadata.md[@angular-eslint/require-localize-metadata]`
+|
+|
+| Error
+
 | `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin/docs/rules/sort-ngmodule-metadata-arrays.md[@angular-eslint/sort-ngmodule-metadata-arrays]`
 |
 | Yes

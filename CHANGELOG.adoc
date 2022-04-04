@@ -3,6 +3,9 @@
 == v0.14.0-alpha (unpublished)
 
 * Updated `@perfective/eslint-config` to `0.18.0-alpha`.
++
+* Updated `@angular-eslint` to `13.2.0`:
+** Enabled `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin/docs/rules/require-localize-metadata.md[@angular-eslint/require-localize-metadata]` as an error.
 
 
 == v0.13.0
