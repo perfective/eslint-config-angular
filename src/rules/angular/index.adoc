@@ -283,6 +283,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/button-has-type.md[@angular-eslint/template/button-has-type]`
+|
+|
+| Error
+
 | `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/eqeqeq.md[@angular-eslint/template/eqeqeq]`
 |
 | Yes
