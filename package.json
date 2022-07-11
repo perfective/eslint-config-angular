@@ -44,7 +44,7 @@
         "@angular-eslint/eslint-plugin-template": "14.0.0",
         "@angular-eslint/template-parser": "14.0.0",
         "@asciidoctor/gulp-asciidoctor": "^2.2.5",
-        "@perfective/build": "~0.4.0-beta.2",
+        "@perfective/build": "~0.4.0",
         "@types/jest": "^28.1.1",
         "@typescript-eslint/eslint-plugin": "5.30.5",
         "@typescript-eslint/eslint-plugin-tslint": "5.30.5",
