@@ -1,10 +1,10 @@
 = Changelog
 
-== v0.14.0-beta.1 (next)
+== v0.14.0-beta.2 (next)
 
-* Updated `@perfective/eslint-config` to `0.18.0-beta`.
+* Updated `@perfective/eslint-config` to `0.18.0-beta.2`.
 +
-* Updated `@angular-eslint` to `14.0.0`:
+* Updated `@angular-eslint` to `14.0.2`:
 ** Enabled `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin/docs/rules/require-localize-metadata.md[@angular-eslint/require-localize-metadata]` as an error;
 ** Enabled `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/button-has-type.md[@angular-eslint/template/button-has-type]` as an error;
 ** Disabled `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin-template/docs/rules/accessibility-label-for.md[@angular-eslint/template/accessibility-label-for]` as deprecated.
