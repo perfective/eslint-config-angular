@@ -1,8 +1,8 @@
 # Perfective ESLint Config for Angular
 
 `@perfective/eslint-config-angular` provides
-a [shareable ESLint configuration](https://eslint.org/docs/developer-guide/shareable-configs)
-that is used for the development of the `@perfective` [Angular](https://angular.io) packages.
+a [shareable ESLint configuration](https://eslint.org/docs/latest/developer-guide/shareable-configs)
+for developing the `@perfective` [Angular](https://angular.io) packages.
 This package is based on the
 [`@perfective/eslint-config`](https://www.npmjs.com/package/@perfective/eslint-config) package.
 
@@ -50,15 +50,15 @@ npm install --save-dev \
 
 2. Require the configuration in your root `.eslintrc.js` or `.eslintrc.json`.
 
-```json
-{
-    "extends": ["@perfective/eslint-config-angular"]
-}
+```javascript
+module.exports = {
+    extends: ['@perfective/eslint-config-angular'],
+};
 ```
 
 3. Use a separate `.eslintrc.html.js` to lint Angular templates.
 
-```js
+```javascript
 module.exports = {
     extends: ['@perfective/eslint-config-angular/template'],
 };

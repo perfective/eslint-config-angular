@@ -1,8 +1,8 @@
 = Perfective ESLint Config for Angular
 
 `@perfective/eslint-config-angular` provides
-a https://eslint.org/docs/developer-guide/shareable-configs[shareable ESLint configuration]
-that is used for the development of the `@perfective` https://angular.io[Angular] packages.
+a https://eslint.org/docs/latest/developer-guide/shareable-configs[shareable ESLint configuration]
+for developing the `@perfective` https://angular.io[Angular] packages.
 This package extends the
 `link:https://www.npmjs.com/package/@perfective/eslint-config[@perfective/eslint-config]` package.
 
@@ -50,15 +50,22 @@ npm install --save-dev \
     tslint
 ----
 +
-. Require the configuration in your root `.eslintrc.js` or `.eslintrc.json`.
+. Require the configuration in your root `.eslintrc.js`.
 +
-[source,json]
+[source,javascript]
 ----
-{
-    "extends": [
-        "@perfective/eslint-config-angular"
-    ]
-}
+module.exports = {
+    extends: ['@perfective/eslint-config-angular'],
+};
+----
++
+. Use a separate `.eslintrc.html.js` to lint Angular templates.
++
+[source,javascript]
+----
+module.exports = {
+    extends: ['@perfective/eslint-config-angular/template'],
+};
 ----
 
 
@@ -74,13 +81,3 @@ including overrides with additional Angular customizations:
 == Roadmap
 
 * Remove TSLint support.
-
-
-== Legacy
-
-Starting from version `0.8.0` the project was extracted into its own repository
-`link:https://github.com/perfective/eslint-config-angular[@perfective/eslint-config-angular]` from the original
-`link:https://github.com/perfective/js[@perfective/js]` monorepo.
-Its Git repository was rebuilt using `git filter-branch` to preserve commit log.
-Legacy commits cannot be used for rollbacks and debug,
-as there is no `package-lock.json`.
