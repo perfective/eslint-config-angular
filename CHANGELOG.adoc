@@ -1,8 +1,9 @@
 = Changelog
 
-== v0.14.0-beta.2 (next)
+== v0.14.0 (next)
 
-* Updated `@perfective/eslint-config` to `0.18.0-beta.2`.
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
+to `link:https://github.com/perfective/eslint-config/releases/tag/v0.18.0[0.18.0]`.
 +
 * Updated `@angular-eslint` to `14.0.2`:
 ** Enabled `link:https://github.com/angular-eslint/angular-eslint/blob/master/packages/eslint-plugin/docs/rules/require-localize-metadata.md[@angular-eslint/require-localize-metadata]` as an error;
