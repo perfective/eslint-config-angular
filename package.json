@@ -35,13 +35,13 @@
         "@perfective/eslint-config": "~0.19.0-alpha"
     },
     "peerDependencies": {
-        "@angular-eslint/eslint-plugin": "^14.0.2",
-        "@angular-eslint/eslint-plugin-template": "^14.0.2",
+        "@angular-eslint/eslint-plugin": "^14.1.2",
+        "@angular-eslint/eslint-plugin-template": "^14.1.2",
         "eslint-plugin-rxjs-angular": "^2.0.0"
     },
     "devDependencies": {
-        "@angular-eslint/eslint-plugin": "14.0.2",
-        "@angular-eslint/eslint-plugin-template": "14.0.2",
+        "@angular-eslint/eslint-plugin": "14.1.2",
+        "@angular-eslint/eslint-plugin-template": "14.1.2",
         "@angular-eslint/template-parser": "14.0.2",
         "@asciidoctor/gulp-asciidoctor": "^2.2.5",
         "@perfective/build": "~0.5.0-alpha",
