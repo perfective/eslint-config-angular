@@ -1,8 +1,8 @@
 = Changelog
 
-== v0.15.0 (next)
+== v0.15.0-beta (next)
 
-* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to `0.19.0-alpha`.
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to `0.19.0-beta`.
 * Updated `@angular-eslint` to `14.1.2`.
 
 

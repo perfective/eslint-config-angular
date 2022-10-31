@@ -10,7 +10,7 @@ Migration between minor versions follows the same steps:
 ** check for the regressions.
 
 
-== From `v0.14.0` to `v0.15.0` (next)
+== From `v0.14.0` to `v0.15.0-beta` (next)
 
 .Disable new rules in the `.eslintrc.js`
 [source,js]
@@ -24,8 +24,10 @@ module.exports = {
             files: ['*.[jt]s?(x)'],
             rules: {
                 'logical-assignment-operators': 'off', // auto-fixable
+                '@typescript-eslint/no-unsafe-declaration-merging': 'off',
                 'jest/prefer-each': 'off',
                 'jest/prefer-mock-promise-shorthand': 'off', // auto-fixable
+                'promise/no-multiple-resolved': 'off',
                 'unicorn/no-unnecessary-await': 'off', // auto-fixable
             },
         },
