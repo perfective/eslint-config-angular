@@ -42,7 +42,7 @@
     "devDependencies": {
         "@angular-eslint/eslint-plugin": "14.1.2",
         "@angular-eslint/eslint-plugin-template": "14.1.2",
-        "@angular-eslint/template-parser": "14.0.2",
+        "@angular-eslint/template-parser": "14.1.2",
         "@asciidoctor/gulp-asciidoctor": "^2.2.5",
         "@perfective/build": "~0.5.0",
         "@types/jest": "^28.1.8",
