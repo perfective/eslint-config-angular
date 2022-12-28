@@ -10,7 +10,39 @@ Migration between minor versions follows the same steps:
 ** check for the regressions.
 
 
-== From `v0.14.0` to `v0.15.0` (next)
+== From `v0.15.0` to `v0.16.0-alpha` (next)
+
+.Disable new rules in the `.eslintrc.js`
+[source,js]
+----
+module.exports = {
+    extends: [
+        '@perfective/eslint-config-angular',
+    ],
+    overrides: [
+        {
+            files: ['*.[jt]s?(x)'],
+            rules: {
+                'unicorn/no-typeof-undefined': 'off', // auto-fixable
+                'unicorn/no-negated-condition': 'off', // auto-fixable
+                'unicorn/refer-set-size': 'off', // auto-fixable
+            },
+        },
+        {
+            files: ['*.component.html'],
+            rules: {
+                '@angular-eslint/template/accessibility-interactive-supports-focus': 'off',
+                '@angular-eslint/template/accessibility-role-has-required-aria': 'off',
+                '@angular-eslint/template/attributes-order': 'off', // auto-fixable
+                '@angular-eslint/template/no-inline-styles': 'off',
+            },
+        },
+    ],
+};
+----
+
+
+== From `v0.14.0` to `v0.15.0`
 
 .Disable new rules in the `.eslintrc.js`
 [source,js]
