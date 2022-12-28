@@ -40,7 +40,7 @@ export = {
         '@angular-eslint/no-lifecycle-call': 'error',
         '@angular-eslint/no-output-native': 'error',
         '@angular-eslint/no-output-on-prefix': 'error',
-        '@angular-eslint/no-output-rename': 'error',
+        '@angular-eslint/no-output-rename': 'warn',
         '@angular-eslint/no-outputs-metadata-property': 'error',
         '@angular-eslint/no-pipe-impure': 'error',
         '@angular-eslint/no-queries-metadata-property': 'error',

@@ -4,10 +4,10 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 
 [cols="~,1,1,1"]
 |===
-| Rule | Recommended | Fixable | Config
+| Rule | https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/src/configs/recommended.json[Recommended] | Fixable | Config
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/component-class-suffix.md[@angular-eslint/component-class-suffix]`
-|
+| Yes
 |
 | Error
 
@@ -27,12 +27,12 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Error
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/contextual-lifecycle.md[@angular-eslint/contextual-lifecycle]`
-|
+| Yes
 |
 | Error
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/directive-class-suffix.md[@angular-eslint/directive-class-suffix]`
-|
+| Yes
 |
 | Error
 
@@ -52,7 +52,7 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Error
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-empty-lifecycle-method.md[@angular-eslint/no-empty-lifecycle-method]`
-|
+| Yes
 |
 | Error
 
@@ -62,7 +62,7 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Error
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-host-metadata-property.md[@angular-eslint/no-host-metadata-property]`
-|
+| Yes
 |
 | Error
 
@@ -72,12 +72,12 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Error
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-input-rename.md[@angular-eslint/no-input-rename]`
-|
+| Yes
 |
 | Off
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-inputs-metadata-property.md[@angular-eslint/no-inputs-metadata-property]`
-|
+| Yes
 |
 | Error
 
@@ -87,22 +87,22 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Error
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-output-native.md[@angular-eslint/no-output-native]`
-|
+| Yes
 |
 | Error
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-output-on-prefix.md[@angular-eslint/no-output-on-prefix]`
-|
+| Yes
 |
 | Error
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-output-rename.md[@angular-eslint/no-output-rename]`
-|
-|
-| Error
+| Yes
+| Yes
+| Warning
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-outputs-metadata-property.md[@angular-eslint/no-outputs-metadata-property]`
-|
+| Yes
 |
 | Error
 
@@ -162,13 +162,13 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Error
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/use-lifecycle-interface.md[@angular-eslint/use-lifecycle-interface]`
-|
+| Yes
 |
 | Error
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/use-pipe-transform-interface.md[@angular-eslint/use-pipe-transform-interface]`
-|
-|
+| Yes
+| Yes
 | Warning
 
 |===
@@ -178,7 +178,7 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 
 [cols="~,1,1,1"]
 |===
-| Rule | Recommended | Fixable | Config
+| Rule | https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/src/configs/recommended.json[Recommended] | Fixable | Config
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/accessibility-alt-text.md[@angular-eslint/template/accessibility-alt-text]`
 |
@@ -240,8 +240,8 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 ----
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/banana-in-box.md[@angular-eslint/template/banana-in-box]`
-|
-|
+| Yes
+| Yes
 | Warning
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/button-has-type.md[@angular-eslint/template/button-has-type]`
@@ -265,7 +265,7 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Off
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/eqeqeq.md[@angular-eslint/template/eqeqeq]`
-|
+| Yes
 | Yes
 | Warning
 
@@ -311,7 +311,7 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Error
 
 | `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/no-negated-async.md[@angular-eslint/template/no-negated-async]`
-|
+| Yes
 |
 | Off
 4+| Fails with `Cannot read property 'start' of undefined`
