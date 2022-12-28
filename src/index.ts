@@ -17,6 +17,7 @@ export = {
                     globalReturn: false,
                     impliedStrict: true,
                 },
+                project: ['tsconfig.json', 'tsconfig.(app|spec).json'],
                 sourceType: 'module',
             },
             extends: [
