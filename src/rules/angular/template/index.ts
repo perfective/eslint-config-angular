@@ -47,6 +47,7 @@ export = {
             allowNgStyle: false,
             allowBindToStyle: false,
         }],
+        '@angular-eslint/template/no-interpolation-in-attributes': 'error',
         // TODO: Fails with "Cannot read property 'start' of undefined
         '@angular-eslint/template/no-negated-async': 'off',
         '@angular-eslint/template/no-positive-tabindex': 'error', // == accessibility-tabindex-no-positive

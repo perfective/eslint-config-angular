@@ -53,6 +53,7 @@ export = {
         '@angular-eslint/relative-url-prefix': 'error',
         '@angular-eslint/require-localize-metadata': ['error', {
             requireDescription: false,
+            requireMeaning: false,
         }],
         '@angular-eslint/sort-ngmodule-metadata-arrays': 'warn',
         '@angular-eslint/use-component-selector': 'error',
