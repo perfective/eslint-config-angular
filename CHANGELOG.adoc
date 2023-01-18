@@ -1,14 +1,15 @@
 = Changelog
 
-== v0.16.0-alpha.1 (next)
+== v0.16.0-alpha.2 (next)
 
-* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to `link:https://github.com/perfective/eslint-config/releases/tag/v0.20.0-alpha.1[0.20.0-alpha.1]`.
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to `link:https://github.com/perfective/eslint-config/releases/tag/v0.20.0-alpha.2[0.20.0-alpha.2]`.
 +
-* Updated `@angular-eslint` to `15.1.0`.
+* Updated `@angular-eslint` to `15.2.0`.
 ** Enabled `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/accessibility-interactive-supports-focus.md[@angular-eslint/template/accessibility-interactive-supports-focus]` as an error.
 ** Enabled `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/accessibility-role-has-required-aria.md[@angular-eslint/template/accessibility-role-has-required-aria]` as an error.
 ** Enabled `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/attributes-order.md[@angular-eslint/template/attributes-order]` as a warning.
 ** Enabled `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/no-inline-styles.md[@angular-eslint/template/no-inline-styles]` as an error.
+** Enabled `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/no-interpolation-in-attributes.md[@angular-eslint/template/no-interpolation-in-attributes]` as an error.
 ** Set default `parserOptions.project` values to include Angular-specific tsconfig names.
 
 
