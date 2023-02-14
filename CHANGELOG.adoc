@@ -1,10 +1,10 @@
 = Changelog
 
-== v0.16.0-alpha.3 (next)
+== v0.16.0-beta (next)
 
-* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to `link:https://github.com/perfective/eslint-config/releases/tag/v0.20.0-alpha.3[0.20.0-alpha.3]`.
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to `link:https://github.com/perfective/eslint-config/releases/tag/v0.20.0-beta[0.20.0-beta]`.
 +
-* Updated `@angular-eslint` to `15.2.0`.
+* Updated `@angular-eslint` to `15.2.1`.
 ** Enabled `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/accessibility-interactive-supports-focus.md[@angular-eslint/template/accessibility-interactive-supports-focus]` as an error.
 ** Enabled `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/accessibility-role-has-required-aria.md[@angular-eslint/template/accessibility-role-has-required-aria]` as an error.
 ** Enabled `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/attributes-order.md[@angular-eslint/template/attributes-order]` as a warning.
