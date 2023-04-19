@@ -1,4 +1,5 @@
 = `rxjs-angular`
+:eslint-rxjs-angular-rules: https://github.com/cartant/eslint-plugin-rxjs-angular/blob/main/docs/rules
 
 The `link:https://github.com/cartant/eslint-plugin-rxjs-angular[eslint-plugin-rxjs-angular]` plugin
 provides RxJS linting rules specific for the Angular applications.
@@ -7,17 +8,17 @@ provides RxJS linting rules specific for the Angular applications.
 |===
 | Rule | Recommended | Fixable | Config
 
-| `link:https://github.com/cartant/eslint-plugin-rxjs-angular/blob/main/docs/rules/prefer-async-pipe.md[rxjs-angular/prefer-async-pipe]`
+| `link:{eslint-rxjs-angular-rules}/prefer-async-pipe.md[rxjs-angular/prefer-async-pipe]`
 |
 |
 | Error
 
-| `link:https://github.com/cartant/eslint-plugin-rxjs-angular/blob/main/docs/rules/prefer-composition.md[rxjs-angular/prefer-composition]`
+| `link:{eslint-rxjs-angular-rules}/prefer-composition.md[rxjs-angular/prefer-composition]`
 |
 |
 | Off
 
-| `link:https://github.com/cartant/eslint-plugin-rxjs-angular/blob/main/docs/rules/prefer-takeuntil.md[rxjs-angular/prefer-takeuntil]`
+| `link:{eslint-rxjs-angular-rules}/prefer-takeuntil.md[rxjs-angular/prefer-takeuntil]`
 |
 |
 | Off

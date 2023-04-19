@@ -1,4 +1,6 @@
 = `@angular-eslint`
+:angular-eslint-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules
+:angular-eslint-template-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules
 
 The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plugin provides linting rules for Angular.
 
@@ -6,167 +8,167 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |===
 | Rule | https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/src/configs/recommended.json[Recommended] | Fixable | Config
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/component-class-suffix.md[@angular-eslint/component-class-suffix]`
+| `link:{angular-eslint-rules}/component-class-suffix.md[@angular-eslint/component-class-suffix]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/component-max-inline-declarations.md[@angular-eslint/component-max-inline-declarations]`
+| `link:{angular-eslint-rules}/component-max-inline-declarations.md[@angular-eslint/component-max-inline-declarations]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/component-selector.md[@angular-eslint/component-selector]`
+| `link:{angular-eslint-rules}/component-selector.md[@angular-eslint/component-selector]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/contextual-decorator.md[@angular-eslint/contextual-decorator]`
+| `link:{angular-eslint-rules}/contextual-decorator.md[@angular-eslint/contextual-decorator]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/contextual-lifecycle.md[@angular-eslint/contextual-lifecycle]`
+| `link:{angular-eslint-rules}/contextual-lifecycle.md[@angular-eslint/contextual-lifecycle]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/directive-class-suffix.md[@angular-eslint/directive-class-suffix]`
+| `link:{angular-eslint-rules}/directive-class-suffix.md[@angular-eslint/directive-class-suffix]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/directive-selector.md[@angular-eslint/directive-selector]`
+| `link:{angular-eslint-rules}/directive-selector.md[@angular-eslint/directive-selector]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-attribute-decorator.md[@angular-eslint/no-attribute-decorator]`
+| `link:{angular-eslint-rules}/no-attribute-decorator.md[@angular-eslint/no-attribute-decorator]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-conflicting-lifecycle.md[@angular-eslint/no-conflicting-lifecycle]`
+| `link:{angular-eslint-rules}/no-conflicting-lifecycle.md[@angular-eslint/no-conflicting-lifecycle]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-empty-lifecycle-method.md[@angular-eslint/no-empty-lifecycle-method]`
+| `link:{angular-eslint-rules}/no-empty-lifecycle-method.md[@angular-eslint/no-empty-lifecycle-method]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-forward-ref.md[@angular-eslint/no-forward-ref]`
+| `link:{angular-eslint-rules}/no-forward-ref.md[@angular-eslint/no-forward-ref]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-host-metadata-property.md[@angular-eslint/no-host-metadata-property]`
+| `link:{angular-eslint-rules}/no-host-metadata-property.md[@angular-eslint/no-host-metadata-property]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-input-prefix.md[@angular-eslint/no-input-prefix]`
+| `link:{angular-eslint-rules}/no-input-prefix.md[@angular-eslint/no-input-prefix]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-input-rename.md[@angular-eslint/no-input-rename]`
+| `link:{angular-eslint-rules}/no-input-rename.md[@angular-eslint/no-input-rename]`
 | Yes
 |
 | Off
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-inputs-metadata-property.md[@angular-eslint/no-inputs-metadata-property]`
+| `link:{angular-eslint-rules}/no-inputs-metadata-property.md[@angular-eslint/no-inputs-metadata-property]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-lifecycle-call.md[@angular-eslint/no-lifecycle-call]`
+| `link:{angular-eslint-rules}/no-lifecycle-call.md[@angular-eslint/no-lifecycle-call]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-output-native.md[@angular-eslint/no-output-native]`
+| `link:{angular-eslint-rules}/no-output-native.md[@angular-eslint/no-output-native]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-output-on-prefix.md[@angular-eslint/no-output-on-prefix]`
+| `link:{angular-eslint-rules}/no-output-on-prefix.md[@angular-eslint/no-output-on-prefix]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-output-rename.md[@angular-eslint/no-output-rename]`
+| `link:{angular-eslint-rules}/no-output-rename.md[@angular-eslint/no-output-rename]`
 | Yes
-| Yes
-| Warning
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-outputs-metadata-property.md[@angular-eslint/no-outputs-metadata-property]`
-| Yes
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-pipe-impure.md[@angular-eslint/no-pipe-impure]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-queries-metadata-property.md[@angular-eslint/no-queries-metadata-property]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/pipe-prefix.md[@angular-eslint/pipe-prefix]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-on-push-component-change-detection.md[@angular-eslint/prefer-on-push-component-change-detection]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-output-readonly.md[@angular-eslint/prefer-output-readonly]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/relative-url-prefix.md[@angular-eslint/relative-url-prefix]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/require-localize-metadata.md[@angular-eslint/require-localize-metadata]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/sort-ngmodule-metadata-arrays.md[@angular-eslint/sort-ngmodule-metadata-arrays]`
-|
 | Yes
 | Warning
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/use-component-selector.md[@angular-eslint/use-component-selector]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/use-component-view-encapsulation.md[@angular-eslint/use-component-view-encapsulation]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/use-injectable-provided-in.md[@angular-eslint/use-injectable-provided-in]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/use-lifecycle-interface.md[@angular-eslint/use-lifecycle-interface]`
+| `link:{angular-eslint-rules}/no-outputs-metadata-property.md[@angular-eslint/no-outputs-metadata-property]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/use-pipe-transform-interface.md[@angular-eslint/use-pipe-transform-interface]`
+| `link:{angular-eslint-rules}/no-pipe-impure.md[@angular-eslint/no-pipe-impure]`
+|
+|
+| Error
+
+| `link:{angular-eslint-rules}/no-queries-metadata-property.md[@angular-eslint/no-queries-metadata-property]`
+|
+|
+| Error
+
+| `link:{angular-eslint-rules}/pipe-prefix.md[@angular-eslint/pipe-prefix]`
+|
+|
+| Error
+
+| `link:{angular-eslint-rules}/prefer-on-push-component-change-detection.md[@angular-eslint/prefer-on-push-component-change-detection]`
+|
+|
+| Error
+
+| `link:{angular-eslint-rules}/prefer-output-readonly.md[@angular-eslint/prefer-output-readonly]`
+|
+|
+| Error
+
+| `link:{angular-eslint-rules}/relative-url-prefix.md[@angular-eslint/relative-url-prefix]`
+|
+|
+| Error
+
+| `link:{angular-eslint-rules}/require-localize-metadata.md[@angular-eslint/require-localize-metadata]`
+|
+|
+| Error
+
+| `link:{angular-eslint-rules}/sort-ngmodule-metadata-arrays.md[@angular-eslint/sort-ngmodule-metadata-arrays]`
+|
+| Yes
+| Warning
+
+| `link:{angular-eslint-rules}/use-component-selector.md[@angular-eslint/use-component-selector]`
+|
+|
+| Error
+
+| `link:{angular-eslint-rules}/use-component-view-encapsulation.md[@angular-eslint/use-component-view-encapsulation]`
+|
+|
+| Error
+
+| `link:{angular-eslint-rules}/use-injectable-provided-in.md[@angular-eslint/use-injectable-provided-in]`
+|
+|
+| Error
+
+| `link:{angular-eslint-rules}/use-lifecycle-interface.md[@angular-eslint/use-lifecycle-interface]`
+| Yes
+|
+| Error
+
+| `link:{angular-eslint-rules}/use-pipe-transform-interface.md[@angular-eslint/use-pipe-transform-interface]`
 | Yes
 | Yes
 | Warning
@@ -180,48 +182,48 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |===
 | Rule | https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/src/configs/recommended.json[Recommended] | Fixable | Config
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/accessibility-alt-text.md[@angular-eslint/template/accessibility-alt-text]`
+| `link:{angular-eslint-template-rules}/accessibility-alt-text.md[@angular-eslint/template/accessibility-alt-text]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/accessibility-elements-content.md[@angular-eslint/template/accessibility-elements-content]`
+| `link:{angular-eslint-template-rules}/accessibility-elements-content.md[@angular-eslint/template/accessibility-elements-content]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/accessibility-interactive-supports-focus.md[@angular-eslint/template/accessibility-interactive-supports-focus]`
+| `link:{angular-eslint-template-rules}/accessibility-interactive-supports-focus.md[@angular-eslint/template/accessibility-interactive-supports-focus]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/accessibility-label-for.md[@angular-eslint/template/accessibility-label-for]`
+| `link:{angular-eslint-template-rules}/accessibility-label-for.md[@angular-eslint/template/accessibility-label-for]`
 |
 |
 | Off
 4+| This rule is deprecated. Use `@angular-eslint/teamplate/accessibility-label-has-associated-control` instead.
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/accessibility-label-has-associated-control.md[@angular-eslint/template/accessibility-label-has-associated-control]`
+| `link:{angular-eslint-template-rules}/accessibility-label-has-associated-control.md[@angular-eslint/template/accessibility-label-has-associated-control]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/accessibility-role-has-required-aria.md[@angular-eslint/template/accessibility-role-has-required-aria]`
+| `link:{angular-eslint-template-rules}/accessibility-role-has-required-aria.md[@angular-eslint/template/accessibility-role-has-required-aria]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/accessibility-table-scope.md[@angular-eslint/template/accessibility-table-scope]`
+| `link:{angular-eslint-template-rules}/accessibility-table-scope.md[@angular-eslint/template/accessibility-table-scope]`
 |
 | Yes
 | Warning
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/accessibility-valid-aria.md[@angular-eslint/template/accessibility-valid-aria]`
+| `link:{angular-eslint-template-rules}/accessibility-valid-aria.md[@angular-eslint/template/accessibility-valid-aria]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/attributes-order.md[@angular-eslint/template/attributes-order]`
+| `link:{angular-eslint-template-rules}/attributes-order.md[@angular-eslint/template/attributes-order]`
 |
 | Yes
 | Warning
@@ -239,94 +241,94 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
     class="className">
 ----
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/banana-in-box.md[@angular-eslint/template/banana-in-box]`
+| `link:{angular-eslint-template-rules}/banana-in-box.md[@angular-eslint/template/banana-in-box]`
 | Yes
 | Yes
 | Warning
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/button-has-type.md[@angular-eslint/template/button-has-type]`
+| `link:{angular-eslint-template-rules}/button-has-type.md[@angular-eslint/template/button-has-type]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/click-events-have-key-events.md[@angular-eslint/template/click-events-have-key-events]`
+| `link:{angular-eslint-template-rules}/click-events-have-key-events.md[@angular-eslint/template/click-events-have-key-events]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/conditional-complexity.md[@angular-eslint/template/conditional-complexity]`
+| `link:{angular-eslint-template-rules}/conditional-complexity.md[@angular-eslint/template/conditional-complexity]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/cyclomatic-complexity.md[@angular-eslint/template/cyclomatic-complexity]`
+| `link:{angular-eslint-template-rules}/cyclomatic-complexity.md[@angular-eslint/template/cyclomatic-complexity]`
 |
 |
 | Off
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/eqeqeq.md[@angular-eslint/template/eqeqeq]`
+| `link:{angular-eslint-template-rules}/eqeqeq.md[@angular-eslint/template/eqeqeq]`
 | Yes
 | Yes
 | Warning
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/i18n.md[@angular-eslint/template/i18n]`
+| `link:{angular-eslint-template-rules}/i18n.md[@angular-eslint/template/i18n]`
 |
 |
 | Off
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/mouse-events-have-key-events.md[@angular-eslint/template/mouse-events-have-key-events]`
+| `link:{angular-eslint-template-rules}/mouse-events-have-key-events.md[@angular-eslint/template/mouse-events-have-key-events]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/no-any.md[@angular-eslint/template/no-any]`
+| `link:{angular-eslint-template-rules}/no-any.md[@angular-eslint/template/no-any]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/no-autofocus.md[@angular-eslint/template/no-autofocus]`
+| `link:{angular-eslint-template-rules}/no-autofocus.md[@angular-eslint/template/no-autofocus]`
 |
 | Yes
 | Warning
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/no-call-expression.md[@angular-eslint/template/no-call-expression]`
+| `link:{angular-eslint-template-rules}/no-call-expression.md[@angular-eslint/template/no-call-expression]`
 |
-|
-| Off
-4+| Fails with `Cannot read property 'start' of undefined`
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/no-distracting-elements.md[@angular-eslint/template/no-distracting-elements]`
-|
-| Yes
-| Warning
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/no-duplicate-attributes.md[@angular-eslint/template/no-duplicate-attributes]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/no-inline-styles.md[@angular-eslint/template/no-inline-styles]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/no-interpolation-in-attributes.md[@angular-eslint/template/no-interpolation-in-attributes]`
-|
-|
-| Error
-
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/no-negated-async.md[@angular-eslint/template/no-negated-async]`
-| Yes
 |
 | Off
 4+| Fails with `Cannot read property 'start' of undefined`
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/no-positive-tabindex.md[@angular-eslint/template/no-positive-tabindex]`
+| `link:{angular-eslint-template-rules}/no-distracting-elements.md[@angular-eslint/template/no-distracting-elements]`
+|
+| Yes
+| Warning
+
+| `link:{angular-eslint-template-rules}/no-duplicate-attributes.md[@angular-eslint/template/no-duplicate-attributes]`
 |
 |
 | Error
 
-| `link:https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules/use-track-by-function.md[@angular-eslint/template/use-track-by-function]`
+| `link:{angular-eslint-template-rules}/no-inline-styles.md[@angular-eslint/template/no-inline-styles]`
+|
+|
+| Error
+
+| `link:{angular-eslint-template-rules}/no-interpolation-in-attributes.md[@angular-eslint/template/no-interpolation-in-attributes]`
+|
+|
+| Error
+
+| `link:{angular-eslint-template-rules}/no-negated-async.md[@angular-eslint/template/no-negated-async]`
+| Yes
+|
+| Off
+4+| Fails with `Cannot read property 'start' of undefined`
+
+| `link:{angular-eslint-template-rules}/no-positive-tabindex.md[@angular-eslint/template/no-positive-tabindex]`
+|
+|
+| Error
+
+| `link:{angular-eslint-template-rules}/use-track-by-function.md[@angular-eslint/template/use-track-by-function]`
 |
 |
 | Error
