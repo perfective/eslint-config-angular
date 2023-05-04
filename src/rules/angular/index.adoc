@@ -182,43 +182,7 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |===
 | Rule | https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/src/configs/recommended.json[Recommended] | Fixable | Config
 
-| `link:{angular-eslint-template-rules}/accessibility-alt-text.md[@angular-eslint/template/accessibility-alt-text]`
-|
-|
-| Error
-
-| `link:{angular-eslint-template-rules}/accessibility-elements-content.md[@angular-eslint/template/accessibility-elements-content]`
-|
-|
-| Error
-
-| `link:{angular-eslint-template-rules}/accessibility-interactive-supports-focus.md[@angular-eslint/template/accessibility-interactive-supports-focus]`
-|
-|
-| Error
-
-| `link:{angular-eslint-template-rules}/accessibility-label-for.md[@angular-eslint/template/accessibility-label-for]`
-|
-|
-| Off
-4+| This rule is deprecated. Use `@angular-eslint/teamplate/accessibility-label-has-associated-control` instead.
-
-| `link:{angular-eslint-template-rules}/accessibility-label-has-associated-control.md[@angular-eslint/template/accessibility-label-has-associated-control]`
-|
-|
-| Error
-
-| `link:{angular-eslint-template-rules}/accessibility-role-has-required-aria.md[@angular-eslint/template/accessibility-role-has-required-aria]`
-|
-|
-| Error
-
-| `link:{angular-eslint-template-rules}/accessibility-table-scope.md[@angular-eslint/template/accessibility-table-scope]`
-|
-| Yes
-| Warning
-
-| `link:{angular-eslint-template-rules}/accessibility-valid-aria.md[@angular-eslint/template/accessibility-valid-aria]`
+| `link:{angular-eslint-template-rules}/alt-text.md[@angular-eslint/template/alt-text]`
 |
 |
 | Error
@@ -266,6 +230,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Off
 
+| `link:{angular-eslint-template-rules}/elements-content.md[@angular-eslint/template/elements-content]`
+|
+|
+| Error
+
 | `link:{angular-eslint-template-rules}/eqeqeq.md[@angular-eslint/template/eqeqeq]`
 | Yes
 | Yes
@@ -275,6 +244,16 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 |
 | Off
+
+| `link:{angular-eslint-template-rules}/interactive-supports-focus.md[@angular-eslint/template/interactive-supports-focus]`
+|
+|
+| Error
+
+| `link:{angular-eslint-template-rules}/label-has-associated-control.md[@angular-eslint/template/label-has-associated-control]`
+|
+|
+| Error
 
 | `link:{angular-eslint-template-rules}/mouse-events-have-key-events.md[@angular-eslint/template/mouse-events-have-key-events]`
 |
@@ -328,7 +307,22 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `link:{angular-eslint-template-rules}/role-has-required-aria.md[@angular-eslint/template/role-has-required-aria]`
+|
+|
+| Error
+
+| `link:{angular-eslint-template-rules}/table-scope.md[@angular-eslint/template/table-scope]`
+|
+| Yes
+| Warning
+
 | `link:{angular-eslint-template-rules}/use-track-by-function.md[@angular-eslint/template/use-track-by-function]`
+|
+|
+| Error
+
+| `link:{angular-eslint-template-rules}/valid-aria.md[@angular-eslint/template/valid-aria]`
 |
 |
 | Error

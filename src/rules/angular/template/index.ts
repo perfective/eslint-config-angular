@@ -3,14 +3,7 @@ export = {
         '@angular-eslint/template',
     ],
     rules: {
-        '@angular-eslint/template/accessibility-alt-text': 'error',
-        '@angular-eslint/template/accessibility-elements-content': 'error',
-        '@angular-eslint/template/accessibility-interactive-supports-focus': 'error',
-        '@angular-eslint/template/accessibility-label-for': 'off',
-        '@angular-eslint/template/accessibility-label-has-associated-control': 'error',
-        '@angular-eslint/template/accessibility-role-has-required-aria': 'error',
-        '@angular-eslint/template/accessibility-table-scope': 'warn',
-        '@angular-eslint/template/accessibility-valid-aria': 'error',
+        '@angular-eslint/template/alt-text': 'error',
         '@angular-eslint/template/attributes-order': ['warn', {
             alphabetical: false,
             order: [
@@ -33,8 +26,11 @@ export = {
             maxComplexity: 2,
         }],
         '@angular-eslint/template/cyclomatic-complexity': 'off',
+        '@angular-eslint/template/elements-content': 'error',
         '@angular-eslint/template/eqeqeq': 'warn',
         '@angular-eslint/template/i18n': 'off',
+        '@angular-eslint/template/interactive-supports-focus': 'error',
+        '@angular-eslint/template/label-has-associated-control': 'error',
         // TODO: Does not report "mouseover" events
         '@angular-eslint/template/mouse-events-have-key-events': 'error',
         '@angular-eslint/template/no-any': 'error',
@@ -51,6 +47,9 @@ export = {
         // TODO: Fails with "Cannot read property 'start' of undefined
         '@angular-eslint/template/no-negated-async': 'off',
         '@angular-eslint/template/no-positive-tabindex': 'error', // == accessibility-tabindex-no-positive
+        '@angular-eslint/template/role-has-required-aria': 'error',
+        '@angular-eslint/template/table-scope': 'warn',
         '@angular-eslint/template/use-track-by-function': 'error',
+        '@angular-eslint/template/valid-aria': 'error',
     },
 };
