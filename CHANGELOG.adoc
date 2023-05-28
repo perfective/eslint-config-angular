@@ -3,6 +3,32 @@
 :eslint-angular-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules
 :eslint-angular-template-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules
 
+== v0.17.0-alpha (next)
+
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to `link:{eslint-config-tags}/v0.21.0-beta.1[0.21.0-beta.1]`.
+** Supports TypeScript v5.0.
+** Marked `eslint-plugin-cypress` as an optional peer dependency.
+** Marked `eslint-plugin-jest` as an optional peer dependency.
+** Marked `eslint-plugin-jest-formatting` as a conditionally optional peer dependency:
+*** `eslint-plugin-jest-formatting` must be installed when `eslint-plugin-jest` is installed.
+** Marked `eslint-plugin-jest-dom` as an optional peer dependency.
+** Marked `eslint-plugin-testing-library` as an optional peer dependency.
++
+* Upgraded `@angular-eslint` to `16.0.2`:
+** Replaced `@angular-eslint/template/accessibility-alt-text` with `link:{eslint-angular-template-rules}/alt-text.md[@angular-eslint/template/alt-text]`.
+** Replaced `@angular-eslint/template/accessibility-elements-content` with `link:{eslint-angular-template-rules}/elements-content.md[@angular-eslint/template/elements-content]`.
+** Replaced `@angular-eslint/template/accessibility-interactive-supports-focus` with `link:{eslint-angular-template-rules}/interactive-supports-focus.md[@angular-eslint/template/interactive-supports-focus]`.
+** Replaced `@angular-eslint/template/accessibility-label-has-associated-control` with `link:{eslint-angular-template-rules}/label-has-associated-control.md[@angular-eslint/template/label-has-associated-control]`.
+** Replaced `@angular-eslint/template/accessibility-role-has-required-aria` with `link:{eslint-angular-template-rules}/role-has-required-aria.md[@angular-eslint/template/role-has-required-aria]`.
+** Replaced `@angular-eslint/template/accessibility-table-scope` with `link:{eslint-angular-template-rules}/table-scope.md[@angular-eslint/template/table-scope]`.
+** Replaced `@angular-eslint/template/accessibility-valid-aria` with `link:{eslint-angular-template-rules}/valid-aria.md[@angular-eslint/template/valid-aria]`.
+** Removed `@angular-eslint/template/accessibility-label-for` as deprecated and removed from `@angular-eslint`.
++
+* Patched `eslint-plugin-rxjs-angular` to `2.0.1`.
+
+To update see the https://github.com/perfective/eslint-config-angular/blob/main/MIGRATION_GUIDE.adoc[Migration guide].
+
+
 == v0.16.0
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to `link:{eslint-config-tags}/v0.20.0[0.20.0]`.

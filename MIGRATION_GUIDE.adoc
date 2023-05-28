@@ -9,6 +9,61 @@ Migration between minor versions follows the same steps:
 ** fix errors or check auto-fixes of warnings;
 ** check for the regressions.
 
+== From `v0.16.0` to `v0.17.0-alpha` (next)
+
+* If you do not use `jest`,
+remove `eslint-plugin-jest`, `eslint-plugin-jest-formatting`, `eslint-plugin-jest-dom`,
+and `eslint-plugin-testing-library` from `devDependencies`.
++
+* If you do not use `@testing-library/jest-dom`, remove `eslint-plugin-jest-dom` from `devDependencies`.
+* If you do not use `@testing-library`, remove `eslint-plugin-testing-library` from `devDependencies`.
++
+* If you do not use `cypress`, remove `eslint-plugin-cypress` from `devDependencies`.
+
+[NOTE]
+====
+After removing optional peer dependencies, you may need to regenerate your `package-lock.json`,
+as these dependencies may remain in it and in the `node_modules`.
+====
+
+* Remove the `jsdoc/newline-after-description` rule customizations,
+if you have any.
++
+* Update `@angular-eslint/template` rules customizations:
+** Replace `@angular-eslint/template/accessibility-alt-text` with `link:{eslint-angular-template-rules}/alt-text.md[@angular-eslint/template/alt-text]`.
+** Replace `@angular-eslint/template/accessibility-elements-content` with `link:{eslint-angular-template-rules}/elements-content.md[@angular-eslint/template/elements-content]`.
+** Replace `@angular-eslint/template/accessibility-interactive-supports-focus` with `link:{eslint-angular-template-rules}/interactive-supports-focus.md[@angular-eslint/template/interactive-supports-focus]`.
+** Replace `@angular-eslint/template/accessibility-label-has-associated-control` with `link:{eslint-angular-template-rules}/label-has-associated-control.md[@angular-eslint/template/label-has-associated-control]`.
+** Replace `@angular-eslint/template/accessibility-role-has-required-aria` with `link:{eslint-angular-template-rules}/role-has-required-aria.md[@angular-eslint/template/role-has-required-aria]`.
+** Replace `@angular-eslint/template/accessibility-table-scope` with `link:{eslint-angular-template-rules}/table-scope.md[@angular-eslint/template/table-scope]`.
+** Replace `@angular-eslint/template/accessibility-valid-aria` with `link:{eslint-angular-template-rules}/valid-aria.md[@angular-eslint/template/valid-aria]`.
+** Remove `@angular-eslint/template/accessibility-label-for` as deprecated and removed from `@angular-eslint`.
++
+
+
+* Disable new rules in the `.eslintrc.js`.
++
+[source,js]
+----
+module.exports = {
+    extends: [
+        '@perfective/eslint-config',
+    ],
+    overrides: [
+        {
+            files: ['*.[jt]s?(x)'],
+            rules: {
+                '@typescript-eslint/no-duplicate-type-constituents': 'off',
+                '@typescript-eslint/no-unsafe-enum-comparison': 'off',
+                'jsdoc/no-blank-blocks': 'off', // auto-fixable
+                'jsdoc/tag-lines': 'off', // auto-fixable
+                'unicorn/prefer-blob-reading-methods': 'off',
+            },
+        },
+    ],
+};
+----
+
 
 == From `v0.15.0` to `v0.16.0`
 
