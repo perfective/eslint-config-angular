@@ -49,6 +49,7 @@ export = {
         }],
         '@angular-eslint/prefer-on-push-component-change-detection': 'error',
         '@angular-eslint/prefer-output-readonly': 'error',
+        '@angular-eslint/prefer-standalone-component': 'off',
         // TODO: Does not support outside directory paths (e.g. ../common.scss)
         '@angular-eslint/relative-url-prefix': 'error',
         '@angular-eslint/require-localize-metadata': ['error', {

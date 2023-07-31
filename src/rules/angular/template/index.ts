@@ -38,7 +38,11 @@ export = {
         // TODO: Fails with "Cannot read property 'start' of undefined
         '@angular-eslint/template/no-call-expression': 'off',
         '@angular-eslint/template/no-distracting-elements': 'warn',
-        '@angular-eslint/template/no-duplicate-attributes': 'error',
+        '@angular-eslint/template/no-duplicate-attributes': ['error', {
+            allowTwoWayDataBinding: true,
+            allowStylePrecedenceDuplicates: false,
+            ignore: [],
+        }],
         '@angular-eslint/template/no-inline-styles': ['error', {
             allowNgStyle: false,
             allowBindToStyle: false,
@@ -47,6 +51,7 @@ export = {
         // TODO: Fails with "Cannot read property 'start' of undefined
         '@angular-eslint/template/no-negated-async': 'off',
         '@angular-eslint/template/no-positive-tabindex': 'error', // == accessibility-tabindex-no-positive
+        '@angular-eslint/template/prefer-self-closing-tags': 'warning',
         '@angular-eslint/template/role-has-required-aria': 'error',
         '@angular-eslint/template/table-scope': 'warn',
         '@angular-eslint/template/use-track-by-function': 'error',
