@@ -9,7 +9,7 @@ Migration between minor versions follows the same steps:
 ** fix errors or check auto-fixes of warnings;
 ** check for the regressions.
 
-== From `v0.16.0` to `v0.17.0-alpha` (next)
+== From `v0.16.0` to `v0.17.0-beta` (next)
 
 * If you do not use `jest`,
 remove `eslint-plugin-jest`, `eslint-plugin-jest-formatting`, `eslint-plugin-jest-dom`,
@@ -53,8 +53,10 @@ module.exports = {
         {
             files: ['*.[jt]s?(x)'],
             rules: {
+                '@angular-eslint/template/prefer-self-closing-tags': 'off', // auto-fixable
                 '@typescript-eslint/no-duplicate-type-constituents': 'off',
                 '@typescript-eslint/no-unsafe-enum-comparison': 'off',
+                'jsdoc/imports-as-dependencies': 'off',
                 'jsdoc/no-blank-blocks': 'off', // auto-fixable
                 'jsdoc/tag-lines': 'off', // auto-fixable
                 'unicorn/prefer-blob-reading-methods': 'off',
