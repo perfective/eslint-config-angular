@@ -51,7 +51,7 @@ export = {
         // TODO: Fails with "Cannot read property 'start' of undefined
         '@angular-eslint/template/no-negated-async': 'off',
         '@angular-eslint/template/no-positive-tabindex': 'error', // == accessibility-tabindex-no-positive
-        '@angular-eslint/template/prefer-self-closing-tags': 'warning',
+        '@angular-eslint/template/prefer-self-closing-tags': 'warn',
         '@angular-eslint/template/role-has-required-aria': 'error',
         '@angular-eslint/template/table-scope': 'warn',
         '@angular-eslint/template/use-track-by-function': 'error',
