@@ -51,7 +51,8 @@ export = {
         '@angular-eslint/prefer-output-readonly': 'error',
         // TODO: Does not support outside directory paths (e.g. ../common.scss)
         '@angular-eslint/relative-url-prefix': 'error',
-        '@angular-eslint/require-localize-metadata': ['error', {
+        // See https://github.com/angular-eslint/angular-eslint/pull/1469
+        '@angular-eslint/require-localize-metadata': ['off', {
             requireDescription: false,
             requireMeaning: false,
         }],
