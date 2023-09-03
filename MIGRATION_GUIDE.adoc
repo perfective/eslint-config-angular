@@ -9,7 +9,7 @@ Migration between minor versions follows the same steps:
 ** fix errors or check auto-fixes of warnings;
 ** check for the regressions.
 
-== From `v0.16.0` to `v0.17.0-beta` (next)
+== From `v0.16.0` to `v0.17.0-beta.1` (next)
 
 * If you do not use `jest`,
 remove `eslint-plugin-jest`, `eslint-plugin-jest-formatting`, `eslint-plugin-jest-dom`,
@@ -39,7 +39,12 @@ if you have any.
 ** Replace `@angular-eslint/template/accessibility-valid-aria` with `link:{eslint-angular-template-rules}/valid-aria.md[@angular-eslint/template/valid-aria]`.
 ** Remove `@angular-eslint/template/accessibility-label-for` as deprecated and removed from `@angular-eslint`.
 +
-
+* Update `eslint-plugin-testing-library` rules (if applicable):
+** Replace `testing-library/await-async-query` with `testing-library/await-async-queries`.
+** Replace `testing-library/await-fire-event` with `testing-library/await-async-events`.
+** Replace `testing-library/no-await-sync-query` with `testing-library/no-await-sync-queries`.
+** Replace `testing-library/no-render-in-setup` with `testing-library/no-render-in-lifecycle`.
++
 
 * Disable new rules in the `.eslintrc.js`.
 +
@@ -53,7 +58,9 @@ module.exports = {
         {
             files: ['*.[jt]s?(x)'],
             rules: {
+                '@angular-eslint/require-localize-metadata': 'off',
                 '@angular-eslint/template/prefer-self-closing-tags': 'off', // auto-fixable
+                '@typescript-eslint/block-spacing': 'off', // auto-fixable
                 '@typescript-eslint/no-duplicate-type-constituents': 'off',
                 '@typescript-eslint/no-unsafe-enum-comparison': 'off',
                 'jsdoc/imports-as-dependencies': 'off',

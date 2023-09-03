@@ -3,7 +3,13 @@
 :eslint-angular-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules
 :eslint-angular-template-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules
 
-== v0.17.0-beta (next)
+== v0.17.0-beta.1 (next)
+
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to `link:{eslint-config-tags}/v0.22.0-beta[0.22.0-beta]`.
+* Patched `@angular-eslint` to `16.1.1`
+*** Re-enabled `@angular-eslint/require-localize-metadata` as an error.
+
+== v0.17.0-beta
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to `link:{eslint-config-tags}/v0.21.0-beta.3[0.21.0-beta.3]`.
 * Updated `@angular-eslint` to `16.1.0`
