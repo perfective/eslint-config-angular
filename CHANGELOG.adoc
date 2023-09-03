@@ -1,5 +1,12 @@
 = Changelog
 
+== v0.16.1
+
+* Disabled the `@angular-eslint/require-localize-metadata` rule,
+as it is not exported in `@angular-eslint`.
+* Patched `eslint-plugin-rxjs-angular` to `2.0.1`
+
+
 == v0.16.0
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to `link:https://github.com/perfective/eslint-config/releases/tag/v0.20.0[0.20.0]`.
