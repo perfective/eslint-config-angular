@@ -153,6 +153,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Yes
 | Warning
 
+| `link:{angular-eslint-rules}/sort-lifecycle-methods.md[@angular-eslint/sort-lifecycle-methods]`
+|
+|
+| Error
+
 | `link:{angular-eslint-rules}/use-component-selector.md[@angular-eslint/use-component-selector]`
 |
 |
@@ -308,6 +313,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 4+| Fails with `Cannot read property 'start' of undefined`
 
 | `link:{angular-eslint-template-rules}/no-positive-tabindex.md[@angular-eslint/template/no-positive-tabindex]`
+|
+|
+| Error
+
+| `link:{angular-eslint-template-rules}/prefer-ngsrc.md[@angular-eslint/template/prefer-ngsrc]`
 |
 |
 | Error
