@@ -19,7 +19,7 @@
     "homepage": "https://github.com/perfective/eslint-config-angular",
     "repository": {
         "type": "git",
-        "url": "https://github.com/perfective/eslint-config-angular.git"
+        "url": "git+https://github.com/perfective/eslint-config-angular.git"
     },
     "license": "MIT",
     "scripts": {
