@@ -55,7 +55,9 @@ export = {
         '@angular-eslint/template/prefer-self-closing-tags': 'warn',
         '@angular-eslint/template/role-has-required-aria': 'error',
         '@angular-eslint/template/table-scope': 'warn',
-        '@angular-eslint/template/use-track-by-function': 'error',
+        '@angular-eslint/template/use-track-by-function': ['error', {
+            alias: [],
+        }],
         '@angular-eslint/template/valid-aria': 'error',
     },
 };
