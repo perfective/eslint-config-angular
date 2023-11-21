@@ -317,6 +317,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `link:{angular-eslint-template-rules}/prefer-control-flow.md[@angular-eslint/template/prefer-control-flow]`
+|
+|
+| Error
+
 | `link:{angular-eslint-template-rules}/prefer-ngsrc.md[@angular-eslint/template/prefer-ngsrc]`
 |
 |
