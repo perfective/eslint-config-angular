@@ -9,7 +9,7 @@ Migration between minor versions follows the same steps:
 ** fix errors or check auto-fixes of warnings;
 ** check for the regressions.
 
-== From `v0.18.1` to `v0.19.0`
+== From `v0.18.1` to `v0.19.1`
 
 * Disable and gradually enable new rules in the `.eslintrc.js`.
 +
@@ -24,6 +24,7 @@ module.exports = {
             files: ['*.[jt]s?(x)'],
             rules: {
                 '@angular-eslint/template/prefer-control-flow': 'off',
+                '@typescript-eslint/no-useless-template-literals': 'off',
             },
         },
     ],
