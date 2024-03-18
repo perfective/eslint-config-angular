@@ -3,6 +3,21 @@
 :eslint-angular-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules
 :eslint-angular-template-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules
 
+== v0.20.0
+
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
+to `link:{eslint-config-tags}/v0.24.0[0.24.0]`.
+** `eslint` and `@typescript-eslint` rules are replaced with the https://eslint.style/rules[ESLint Stylistic rules].
+** Rules configurations remain the same.
+Only rule https://eslint.style/guide/migration[namespaces] have changed.
++
+* Updated `@angular-eslint` to `17.3.0`:
+** Enabled the `link:{eslint-angular-rules}/consistent-component-styles.md[@angular-eslint/consistent-component-styles]`
+rule as an error.
+** Enabled the `link:{eslint-angular-rules}/no-async-lifecycle-method.md[@angular-eslint/no-async-lifecycle-method]`
+rule as an error.
+
+
 == v0.19.2
 
 * Patched `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`

@@ -9,6 +9,37 @@ Migration between minor versions follows the same steps:
 ** fix errors or check auto-fixes of warnings;
 ** check for the regressions.
 
+== From `v0.19.2` to `v0.20.0`
+
+* Check customizations of the `eslint` and `@typescript-eslint` rules replaced
+by the https://eslint.style/rules[ESLint Stylistic rules].
+Replace the name of the customized rules with the new rules.
+See Stylistic https://eslint.style/guide/migration[migration] documentation for details.
++
+* Disable and gradually enable new rules in the `.eslintrc.js`.
++
+[source,js]
+----
+module.exports = {
+    extends: [
+        '@perfective/eslint-config-angular',
+    ],
+    overrides: [
+        {
+            files: ['*.[jt]s?(x)'],
+            rules: {
+                '@angular-eslint/consistent-component-styles': 'off',
+                '@angular-eslint/no-async-lifecycle-method': 'off',
+                '@typescript-eslint/no-array-delete': 'off',
+                '@typescript-eslint/prefer-find': 'off',
+                '@typescript-eslint/prefer-promise-reject-errors': 'off',
+            },
+        },
+    ],
+};
+----
+
+
 == From `v0.18.1` to `v0.19.2`
 
 * Disable and gradually enable new rules in the `.eslintrc.js`.
