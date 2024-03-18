@@ -23,6 +23,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `link:{angular-eslint-rules}/consistent-component-styles.md[@angular-eslint/consistent-component-styles]`
+|
+|
+| Error
+
 | `link:{angular-eslint-rules}/contextual-decorator.md[@angular-eslint/contextual-decorator]`
 |
 |
@@ -39,6 +44,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Error
 
 | `link:{angular-eslint-rules}/directive-selector.md[@angular-eslint/directive-selector]`
+|
+|
+| Error
+
+| `link:{angular-eslint-rules}/no-async-lifecycle-method.md[@angular-eslint/no-async-lifecycle-method]`
 |
 |
 | Error

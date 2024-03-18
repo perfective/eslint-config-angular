@@ -14,6 +14,7 @@ export = {
             prefix: 'pf',
             style: 'camelCase',
         }],
+        '@angular-eslint/consistent-component-styles': 'error',
         '@angular-eslint/contextual-decorator': 'error',
         '@angular-eslint/contextual-lifecycle': 'error',
         '@angular-eslint/directive-class-suffix': 'error',
@@ -23,6 +24,7 @@ export = {
             prefix: 'pf',
             style: 'camelCase',
         }],
+        '@angular-eslint/no-async-lifecycle-method': 'error',
         '@angular-eslint/no-attribute-decorator': 'error',
         '@angular-eslint/no-conflicting-lifecycle': 'error',
         '@angular-eslint/no-empty-lifecycle-method': 'error',
@@ -49,7 +51,9 @@ export = {
         }],
         '@angular-eslint/prefer-on-push-component-change-detection': 'error',
         '@angular-eslint/prefer-output-readonly': 'error',
+        // Deprecated
         '@angular-eslint/prefer-standalone-component': 'off',
+        '@angular-eslint/prefer-standalone': 'off',
         // TODO: Does not support outside directory paths (e.g. ../common.scss)
         '@angular-eslint/relative-url-prefix': 'error',
         '@angular-eslint/require-localize-metadata': ['error', {
