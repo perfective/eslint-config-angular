@@ -3,6 +3,22 @@
 :eslint-angular-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules
 :eslint-angular-template-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules
 
+== v0.21.0
+
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
+to `link:{eslint-config-tags}/v0.25.0[0.25.0]`.
+** Added `eslint-plugin-n` support.
+** Deprecated `eslint-plugin-node` (replaced by `eslint-plugin-n`).
+** Upgraded `@typescript-eslint` to `7.12.0` (supports TypeScript v5.4).
++
+* Updated `@angular-eslint` to `18.0.1`:
+** Enabled the `link:{eslint-angular-rules}/no-duplicates-in-metadata-arrays.md[@angular-eslint/no-duplicates-in-metadata-arrays]`
+rule as an error.
+** Changed the `link:{eslint-angular-rules}/use-lifecycle-interface.md[@angular-eslint/use-lifecycle-interface]`
+rule severity to a warning, as now it’s auto-fixable.
+** Disabled the `@angular-eslint/no-host-metadata-property` rule as deprecated.
+
+
 == v0.20.0
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
