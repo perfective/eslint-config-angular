@@ -27,11 +27,11 @@ export = {
         '@angular-eslint/no-async-lifecycle-method': 'error',
         '@angular-eslint/no-attribute-decorator': 'error',
         '@angular-eslint/no-conflicting-lifecycle': 'error',
+        '@angular-eslint/no-duplicates-in-metadata-arrays': 'error',
         '@angular-eslint/no-empty-lifecycle-method': 'error',
         '@angular-eslint/no-forward-ref': 'error',
-        '@angular-eslint/no-host-metadata-property': ['error', {
-            allowStatic: false,
-        }],
+        // Deprecated since v18.0.0
+        '@angular-eslint/no-host-metadata-property': 'off',
         '@angular-eslint/no-input-prefix': ['error', {
             prefixes: ['can', 'is', 'on', 'should'],
         }],
@@ -65,7 +65,7 @@ export = {
         '@angular-eslint/use-component-selector': 'error',
         '@angular-eslint/use-component-view-encapsulation': 'error',
         '@angular-eslint/use-injectable-provided-in': 'error',
-        '@angular-eslint/use-lifecycle-interface': 'error',
+        '@angular-eslint/use-lifecycle-interface': 'warn',
         '@angular-eslint/use-pipe-transform-interface': 'warn',
     },
 };

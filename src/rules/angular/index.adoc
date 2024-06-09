@@ -63,6 +63,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `link:{angular-eslint-rules}/no-duplicates-in-metadata-arrays.md[@angular-eslint/no-duplicates-in-metadata-arrays]`
+|
+|
+| Error
+
 | `link:{angular-eslint-rules}/no-empty-lifecycle-method.md[@angular-eslint/no-empty-lifecycle-method]`
 | Yes
 |
@@ -74,9 +79,10 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Error
 
 | `link:{angular-eslint-rules}/no-host-metadata-property.md[@angular-eslint/no-host-metadata-property]`
-| Yes
 |
-| Error
+|
+| Off
+4+| Deprecated since v18.0.0
 
 | `link:{angular-eslint-rules}/no-input-prefix.md[@angular-eslint/no-input-prefix]`
 |
@@ -185,8 +191,8 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 
 | `link:{angular-eslint-rules}/use-lifecycle-interface.md[@angular-eslint/use-lifecycle-interface]`
 | Yes
-|
-| Error
+| Yes
+| Warning
 
 | `link:{angular-eslint-rules}/use-pipe-transform-interface.md[@angular-eslint/use-pipe-transform-interface]`
 | Yes
