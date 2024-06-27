@@ -7,7 +7,8 @@
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
 to `link:{eslint-config-tags}/v0.26.0[0.26.0]`.
-** Removed `eslint-plugin-node`.
+** Removed `eslint-plugin-node` dependency.
+** Added `eslint-plugin-security` dependency.
 
 
 == v0.21.0
