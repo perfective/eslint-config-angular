@@ -3,6 +3,13 @@
 :eslint-angular-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules
 :eslint-angular-template-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules
 
+== v0.22.0
+
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
+to `link:{eslint-config-tags}/v0.26.0[0.26.0]`.
+** Removed `eslint-plugin-node`.
+
+
 == v0.21.0
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
