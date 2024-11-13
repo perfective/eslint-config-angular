@@ -3,6 +3,17 @@
 :eslint-angular-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules
 :eslint-angular-template-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules
 
+== v0.23.0
+
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
+to `link:{eslint-config-tags}/v0.27.1[0.27.1]`.
+** Supports TypeScript v5.6.
++
+* Updated `@angular-eslint` to `18.4.0`.
+** Enabled the `link:{eslint-angular-rules}/runtime-localize.md[@angular-eslint/runtime-localize]`
+rule as an error.
+
+
 == v0.22.1
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
