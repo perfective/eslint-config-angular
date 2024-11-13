@@ -164,15 +164,20 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
-| `link:{angular-eslint-rules}/sort-ngmodule-metadata-arrays.md[@angular-eslint/sort-ngmodule-metadata-arrays]`
+| `link:{angular-eslint-rules}/runtime-localize.md[@angular-eslint/runtime-localize]`
 |
-| Yes
-| Warning
+|
+| Error
 
 | `link:{angular-eslint-rules}/sort-lifecycle-methods.md[@angular-eslint/sort-lifecycle-methods]`
 |
 |
 | Error
+
+| `link:{angular-eslint-rules}/sort-ngmodule-metadata-arrays.md[@angular-eslint/sort-ngmodule-metadata-arrays]`
+|
+| Yes
+| Warning
 
 | `link:{angular-eslint-rules}/use-component-selector.md[@angular-eslint/use-component-selector]`
 |

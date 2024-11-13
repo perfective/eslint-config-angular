@@ -56,6 +56,7 @@ export = {
         '@angular-eslint/prefer-standalone': 'off',
         // TODO: Does not support outside directory paths (e.g. ../common.scss)
         '@angular-eslint/relative-url-prefix': 'error',
+        '@angular-eslint/runtime-localize': 'error',
         '@angular-eslint/require-localize-metadata': ['error', {
             requireDescription: false,
             requireMeaning: false,
