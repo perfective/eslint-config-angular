@@ -8,8 +8,8 @@ This package is based on the
 
 `@perfective/eslint-config-angular` uses the following ESLint plugins:
 
--   [`@angular-eslint/eslint-plugin`](https://github.com/angular-eslint/angular-eslint);
--   [`eslint-plugin-rxjs-angular`](https://github.com/cartant/eslint-plugin-rxjs-angular).
+- [`@angular-eslint/eslint-plugin`](https://github.com/angular-eslint/angular-eslint);
+- [`eslint-plugin-rxjs-angular`](https://github.com/cartant/eslint-plugin-rxjs-angular).
 
 ## Setup
 
