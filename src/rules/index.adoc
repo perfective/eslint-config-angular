@@ -3,5 +3,3 @@
 include::eslint-config/index.adoc[leveloffset=+1]
 
 include::angular/index.adoc[leveloffset=+1]
-
-include::rxjs-angular/index.adoc[leveloffset=+1]

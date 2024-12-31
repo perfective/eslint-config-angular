@@ -23,7 +23,6 @@ export = {
             extends: [
                 './rules/eslint-config',
                 './rules/angular',
-                './rules/rxjs-angular',
             ],
         },
         {
