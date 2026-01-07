@@ -1,36 +1,43 @@
-const gulp = require('gulp');
+import gulp from 'gulp';
 
-const build = require('@perfective/build/gulp');
+import * as perfectiveGulp from '@perfective/build/gulp';
 
-exports.clean = build.clean(['./dist', '*.tsbuildinfo']);
-exports.build = build.typescript.tsBuild();
-exports.docs = build.asciidoctor();
+export const clean = perfectiveGulp.clean(['./dist', '*.tsbuildinfo']);
+export const docs = perfectiveGulp.asciidoctor();
 
-exports.default = gulp.series(
-    exports.clean,
-    exports.build,
-    build.packageJson.packageJson({
-        main: './index.js',
-        module: undefined,
-        // The index.d.ts file is not published
-        types: undefined,
+export const spec = gulp.series(
+    perfectiveGulp.clean(['./spec', '*.tsbuildinfo']),
+    perfectiveGulp.typescript.esmBuild({
+        config: './tsconfig.spec.json',
+        output: './spec',
+    }),
+);
+
+const full = gulp.series(
+    clean,
+    perfectiveGulp.typescript.esmBuild(),
+    perfectiveGulp.typescript.tsDeclarations(),
+    perfectiveGulp.packageJson.packageJson({
+        // CommonJS is not supported
+        main: undefined,
+        module: './index.js',
+        types: './index.d.ts',
         directories: {
             lib: './',
         },
         files: [
+            '**/package.json',
             '**/*.js',
-            'rules.d.ts',
-            'rules/**/rules/*.d.ts',
+            '**/*.d.ts',
         ],
-    }, {
-        // Remove the "exports" property as it doesn't support `rules.js` file.
-        exports: undefined,
-    }),
-    build.copy([
+    }, {}),
+    perfectiveGulp.copy([
         './LICENSE*',
         './CHANGELOG*',
         './README*',
         './src/**/package.json',
     ], './dist'),
-    exports.docs,
+    docs,
 );
+
+export default full;

@@ -1,9 +1,11 @@
 {
     "extends": "./tsconfig.json",
     "compilerOptions": {
-        "declaration": true,
+        "declaration": false,
         "declarationMap": false,
         "exactOptionalPropertyTypes": false,
+        "moduleResolution": "bundler",
+        "skipLibCheck": true,
         "sourceMap": false
     },
     "exclude": ["dist", "**/*.spec.ts"]

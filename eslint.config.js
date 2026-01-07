@@ -1,15 +1,21 @@
-const perfectiveEslintConfig = require('@perfective/eslint-config');
-const perfectiveCypressConfig = require('@perfective/eslint-config/cypress');
-const perfectiveJestConfig = require('@perfective/eslint-config/jest');
-const perfectiveJestDomConfig = require('@perfective/eslint-config/jest-dom');
-const perfectiveRxjsConfig = require('@perfective/eslint-config/rxjs');
-const perfectiveTestingLibraryConfig = require('@perfective/eslint-config/testing-library');
+import { cypressConfig } from '@perfective/eslint-config/cypress';
+import { jestConfig } from '@perfective/eslint-config/jest';
+import { jestDomConfig } from '@perfective/eslint-config/jest-dom';
+import { rxjsConfig } from '@perfective/eslint-config/rxjs';
+import { testingLibraryConfig } from '@perfective/eslint-config/testing-library';
 
-module.exports = [
-    ...perfectiveEslintConfig.default,
-    perfectiveCypressConfig.cypressConfig(),
-    perfectiveJestConfig.jestConfig(),
-    perfectiveJestDomConfig.jestDomConfig(),
-    perfectiveRxjsConfig.rxjsConfig(),
-    perfectiveTestingLibraryConfig.testingLibraryConfig(),
-];
+import { perfectiveEslintAngularConfig } from './dist/index.js';
+
+const eslintConfig = perfectiveEslintAngularConfig([
+    {
+        // Ignore generated tests directory.
+        ignores: ['spec'],
+    },
+    cypressConfig,
+    jestConfig,
+    jestDomConfig,
+    rxjsConfig,
+    testingLibraryConfig,
+]);
+
+export default eslintConfig;
