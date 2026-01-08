@@ -93,6 +93,8 @@ function disabledBrokenRules(): Record<string, string> {
         // From eslint-plugin-import
         'import/namespace': 'off',
         'import/no-unused-modules': 'off',
+        // This rule is not broken, but causes a false-positive error.
+        'import/unambiguous': 'off',
         // From eslint-plugin-jsdoc
         'jsdoc/check-alignment': 'off',
         'jsdoc/check-property-names': 'off',
