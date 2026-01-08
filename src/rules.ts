@@ -1,4 +1,4 @@
-export { typescriptEslintNamingConvention } from './rules/eslint-config/rules/typescript-eslint';
+export { typescriptEslintNamingConvention } from './config/eslint-config/rules/typescript-eslint';
 export {
     ImportNoExtraneousDependencies,
     importNoExtraneousDependencies,
