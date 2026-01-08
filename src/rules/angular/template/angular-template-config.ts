@@ -7,12 +7,17 @@ export function angularTemplateConfig(): Linter.Config {
     return {
         files: ['**/*.component.html'],
         languageOptions: {
-            parser: angularTemplateParser as unknown as Linter.Parser,
+            parser: {
+                meta: angularTemplateParser.meta,
+                // eslint-disable-next-line @typescript-eslint/naming-convention -- existing property.
+                parseForESLint: angularTemplateParser.parseForESLint,
+            },
         },
         plugins: {
             '@angular-eslint/template': angularTemplateEslintPlugin as unknown as ESLint.Plugin,
         },
         rules: {
+            ...disabledBrokenRules(),
             '@angular-eslint/template/alt-text': 'error',
             '@angular-eslint/template/attributes-order': ['warn', {
                 alphabetical: false,
@@ -71,5 +76,76 @@ export function angularTemplateConfig(): Linter.Config {
             }],
             '@angular-eslint/template/valid-aria': 'error',
         },
+    };
+}
+
+/**
+ * Disable rules that are broken for Angular templates.
+ */
+function disabledBrokenRules(): Record<string, string> {
+    return {
+        // From ESLint
+        'no-implicit-globals': 'off',
+        'strict': 'off',
+        // From @stylistic
+        '@stylistic/indent': 'off',
+        '@stylistic/lines-around-comment': 'off',
+        // From eslint-plugin-import
+        'import/namespace': 'off',
+        'import/no-unused-modules': 'off',
+        // From eslint-plugin-jsdoc
+        'jsdoc/check-alignment': 'off',
+        'jsdoc/check-property-names': 'off',
+        'jsdoc/check-syntax': 'off',
+        'jsdoc/check-tag-names': 'off',
+        'jsdoc/check-template-names': 'off',
+        'jsdoc/check-types': 'off',
+        'jsdoc/check-values': 'off',
+        'jsdoc/empty-tags': 'off',
+        'jsdoc/empty-types': 'off',
+        'jsdoc/escape-inline-tags': 'off',
+        'jsdoc/imports-as-dependencies': 'off',
+        'jsdoc/multiline-blocks': 'off',
+        'jsdoc/no-blank-blocks': 'off',
+        'jsdoc/no-multi-asterisks': 'off',
+        'jsdoc/no-undefined-types': 'off',
+        'jsdoc/prefer-import-tag': 'off',
+        'jsdoc/reject-any-type': 'off',
+        'jsdoc/reject-function-type': 'off',
+        'jsdoc/require-asterisk-prefix': 'off',
+        'jsdoc/require-description-complete-sentence': 'off',
+        'jsdoc/require-hyphen-before-param-description': 'off',
+        'jsdoc/require-next-description': 'off',
+        'jsdoc/require-next-type': 'off',
+        'jsdoc/require-property': 'off',
+        'jsdoc/require-property-description': 'off',
+        'jsdoc/require-property-name': 'off',
+        'jsdoc/require-property-type': 'off',
+        'jsdoc/require-throws-description': 'off',
+        'jsdoc/require-throws-type': 'off',
+        'jsdoc/require-yields-description': 'off',
+        'jsdoc/require-yields-type': 'off',
+        'jsdoc/sort-tags': 'off',
+        'jsdoc/tag-lines': 'off',
+        'jsdoc/ts-method-signature-style': 'off',
+        'jsdoc/ts-no-empty-object-type': 'off',
+        'jsdoc/ts-no-unnecessary-template-expression': 'off',
+        'jsdoc/ts-prefer-function-type': 'off',
+        'jsdoc/type-formatting': 'off',
+        'jsdoc/valid-types': 'off',
+        // From eslint-plugin-n
+        'n/no-deprecated-api': 'off',
+        'n/no-path-concat': 'off',
+        'n/no-unsupported-features/es-builtins': 'off',
+        'n/no-unsupported-features/node-builtins': 'off',
+        'n/prefer-global/buffer': 'off',
+        'n/prefer-global/console': 'off',
+        'n/prefer-global/process': 'off',
+        'n/prefer-global/text-decoder': 'off',
+        'n/prefer-global/text-encoder': 'off',
+        'n/prefer-global/url': 'off',
+        'n/prefer-global/url-search-params': 'off',
+        'n/prefer-promises/dns': 'off',
+        'n/prefer-promises/fs': 'off',
     };
 }
