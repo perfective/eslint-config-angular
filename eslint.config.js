@@ -1,5 +1,5 @@
 import { cypressConfig } from '@perfective/eslint-config/cypress';
-import { jestConfig } from '@perfective/eslint-config/jest';
+import { jestConfig, jestTypescriptConfig } from '@perfective/eslint-config/jest';
 import { jestDomConfig } from '@perfective/eslint-config/jest-dom';
 import { rxjsConfig } from '@perfective/eslint-config/rxjs';
 import { testingLibraryConfig } from '@perfective/eslint-config/testing-library';
@@ -13,6 +13,7 @@ const eslintConfig = perfectiveEslintAngularConfig([
     },
     cypressConfig,
     jestConfig,
+    jestTypescriptConfig,
     jestDomConfig,
     rxjsConfig,
     testingLibraryConfig,
