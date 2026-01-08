@@ -2,4 +2,4 @@
 
 include::eslint-config/index.adoc[leveloffset=+1]
 
-include::angular/index.adoc[leveloffset=+1]
+include::angular-eslint/index.adoc[leveloffset=+1]
