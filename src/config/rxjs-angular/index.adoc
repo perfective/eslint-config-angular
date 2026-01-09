@@ -1,5 +1,5 @@
 = `rxjs-angular-x`
-:eslint-rxjs-angular-x-rules: https://github.com/cartant/eslint-plugin-rxjs-angular/blob/main/docs/rules
+:eslint-rxjs-angular-x-rules: https://github.com/JasonWeinzierl/eslint-plugin-rxjs-angular-x/blob/main/docs/rules
 
 The `link:https://github.com/JasonWeinzierl/eslint-plugin-rxjs-angular-x/blob/main/docs/rules/[eslint-plugin-rxjs-angular-x]` plugin
 provides RxJS linting rules specific for the Angular applications.

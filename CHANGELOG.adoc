@@ -3,6 +3,44 @@
 :eslint-angular-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules
 :eslint-angular-template-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules
 
+== v0.24.0
+
+* **Migrated to ESLint v9 with flat configs**.
+* **Migrated to ES modules**.
+* **Replaced `eslint-plugin-rxjs-angular` with `eslint-plugin-rxjs-angular-x`**.
++
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
+to `link:{eslint-config-tags}/v0.34.1[0.34.1]`:
++
+** Supports TypeScript v5.9.
++
+** Patched `@angular-eslint` to `18.4.3`.
++
+* Moved `typescriptEslintNamingConvention` from `@perfective/eslint-config/rules`
+to `@perfective/eslint-config/typescript-eslint.
++
+* Removed `@perfective/eslint-config/rules` re-exports from `@perfective/eslint-config`:
++
+** `cypressImportNoExtraneousDependencies`,
+** `ImportNoExtraneousDependencies`,
+** `importNoExtraneousDependencies`,
+** `jestImportNoExtraneousDependencies`,
+** `jsImportNoExtraneousDependencies`,
+** `SimpleImportSortImports`,
+** `simpleImportSortImports`,
+** `TypescriptEslintNamingConvention`,
+** `TypescriptEslintNamingConventionFormat`,
+** `TypescriptEslintNamingConventionGroupSelector`,
+** `TypescriptEslintNamingConventionIndividualSelector`,
+** `TypescriptEslintNamingConventionSelector`,
+** `TypescriptEslintNamingConventionUnderscore`,
+** `UnicornPreventAbbreviationReplacements`,
+** `UnicornPreventAbbreviations`,
+** `unicornPreventAbbreviations`.
++
+Import directly from `@perfective/eslint-config` instead, if needed.
+
+
 == v0.23.0
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`

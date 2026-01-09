@@ -8,6 +8,11 @@ import { angularTemplateConfig } from './angular-eslint/angular-template-config'
 import { rxjsAngularConfig } from './rxjs-angular/rxjs-angular-config';
 import { typescriptEslintNamingConvention } from './typescript-eslint/rules/typescript-eslint';
 
+/**
+ * Creates a list of flat configs.
+ *
+ * @since v0.24.0
+ */
 export function perfectiveEslintAngularConfig(configs: Linter.Config[] = []): Linter.Config[] {
     return perfectiveEslintConfig([
         angularConfig,

@@ -24,7 +24,7 @@ for compatibility with Angular.
 |
 | Error
 
-| `rxjs/finnish`
+| `rxjs-x/finnish`
 |
 |
 | Error
