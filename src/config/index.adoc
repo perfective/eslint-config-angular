@@ -1,5 +1,30 @@
 = Rules
 
-include::eslint-config/index.adoc[leveloffset=+1]
-
 include::angular-eslint/index.adoc[leveloffset=+1]
+
+== `@perfective/eslint-config`
+
+Changes added to the `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
+for compatibility with Angular.
+
+[cols="~,1,1,1"]
+|===
+| Rule | Recommended | Fixable | Config
+
+| `new-cap`
+|
+|
+| Off
+
+
+| `@typescript-eslint/naming-convention`
+|
+|
+| Error
+
+| `rxjs/finnish`
+|
+|
+| Error
+
+|===
