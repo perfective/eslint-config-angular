@@ -173,6 +173,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `link:{angular-eslint-rules}/prefer-signal-model.md[@angular-eslint/prefer-signal-model]`
+|
+|
+| Error
+
 | `link:{angular-eslint-rules}/prefer-signals.md[@angular-eslint/prefer-signals]`
 |
 |

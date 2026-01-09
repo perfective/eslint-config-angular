@@ -62,6 +62,7 @@ export function angularConfig(): Linter.Config {
             '@angular-eslint/prefer-on-push-component-change-detection': 'error',
             '@angular-eslint/prefer-output-emitter-ref': 'error',
             '@angular-eslint/prefer-output-readonly': 'error',
+            '@angular-eslint/prefer-signal-model': 'error',
             '@angular-eslint/prefer-signals': 'warn',
             '@angular-eslint/prefer-standalone': 'error',
             // TODO: Does not support outside directory paths (e.g. ../common.scss)
