@@ -58,6 +58,7 @@ export function angularTemplateConfig(): Linter.Config {
                 allowStylePrecedenceDuplicates: false,
                 ignore: [],
             }],
+            '@angular-eslint/template/no-empty-control-flow': 'error',
             '@angular-eslint/template/no-inline-styles': ['error', {
                 allowNgStyle: false,
                 allowBindToStyle: false,
@@ -67,7 +68,9 @@ export function angularTemplateConfig(): Linter.Config {
             '@angular-eslint/template/no-negated-async': 'off',
             '@angular-eslint/template/no-nested-tags': 'off',
             '@angular-eslint/template/no-positive-tabindex': 'error', // == accessibility-tabindex-no-positive
+            '@angular-eslint/template/prefer-at-else': 'warn',
             '@angular-eslint/template/prefer-at-empty': 'warn',
+            '@angular-eslint/template/prefer-built-in-pipes': 'error',
             '@angular-eslint/template/prefer-contextual-for-variables': 'warn',
             '@angular-eslint/template/prefer-control-flow': 'error',
             '@angular-eslint/template/prefer-ngsrc': 'error',

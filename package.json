@@ -35,9 +35,9 @@
         "test:build": "gulp spec && NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest --clearCache && NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest --collectCoverage"
     },
     "peerDependencies": {
-        "@angular-eslint/eslint-plugin": "^19.8.1",
-        "@angular-eslint/eslint-plugin-template": "^19.8.1",
-        "@angular-eslint/template-parser": "^19.8.1",
+        "@angular-eslint/eslint-plugin": "^20.7.0",
+        "@angular-eslint/eslint-plugin-template": "^20.7.0",
+        "@angular-eslint/template-parser": "^20.7.0",
         "@perfective/eslint-config": "~0.34.1",
         "eslint": "^9.39.2",
         "eslint-plugin-rxjs-x": "~0.8.4",
@@ -45,9 +45,9 @@
     },
     "devDependencies": {
         "@asciidoctor/gulp-asciidoctor": "^2.2.5",
-        "@angular-eslint/eslint-plugin": "19.8.1",
-        "@angular-eslint/eslint-plugin-template": "19.8.1",
-        "@angular-eslint/template-parser": "19.8.1",
+        "@angular-eslint/eslint-plugin": "20.7.0",
+        "@angular-eslint/eslint-plugin-template": "20.7.0",
+        "@angular-eslint/template-parser": "20.7.0",
         "@eslint-community/eslint-plugin-eslint-comments": "4.5.0",
         "@jest/globals": "^30.2.0",
         "@perfective/build": "~0.22.0",

@@ -34,8 +34,10 @@ export function angularConfig(): Linter.Config {
             '@angular-eslint/no-async-lifecycle-method': 'error',
             '@angular-eslint/no-attribute-decorator': 'error',
             '@angular-eslint/no-conflicting-lifecycle': 'error',
+            '@angular-eslint/no-developer-preview': 'error',
             '@angular-eslint/no-duplicates-in-metadata-arrays': 'error',
             '@angular-eslint/no-empty-lifecycle-method': 'error',
+            '@angular-eslint/no-experimental': 'error',
             '@angular-eslint/no-forward-ref': 'error',
             '@angular-eslint/no-input-prefix': ['error', {
                 prefixes: ['can', 'is', 'on', 'should'],
@@ -55,6 +57,7 @@ export function angularConfig(): Linter.Config {
             '@angular-eslint/pipe-prefix': ['error', {
                 prefixes: ['pf'],
             }],
+            '@angular-eslint/prefer-host-metadata-property': 'error',
             '@angular-eslint/prefer-inject': 'error',
             '@angular-eslint/prefer-on-push-component-change-detection': 'error',
             '@angular-eslint/prefer-output-emitter-ref': 'error',

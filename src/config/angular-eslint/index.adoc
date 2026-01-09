@@ -63,6 +63,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `link:{angular-eslint-rules}/no-developer-preview.md[@angular-eslint/no-developer-preview]`
+|
+|
+| Error
+
 | `link:{angular-eslint-rules}/no-duplicates-in-metadata-arrays.md[@angular-eslint/no-duplicates-in-metadata-arrays]`
 |
 |
@@ -70,6 +75,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 
 | `link:{angular-eslint-rules}/no-empty-lifecycle-method.md[@angular-eslint/no-empty-lifecycle-method]`
 | Yes
+|
+| Error
+
+| `link:{angular-eslint-rules}/no-experimental.md[@angular-eslint/no-experimental]`
+|
 |
 | Error
 
@@ -134,6 +144,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | Error
 
 | `link:{angular-eslint-rules}/pipe-prefix.md[@angular-eslint/pipe-prefix]`
+|
+|
+| Error
+
+| `link:{angular-eslint-rules}/prefer-host-metadata-property.md[@angular-eslint/prefer-host-metadata-property]`
 |
 |
 | Error
@@ -336,6 +351,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `link:{angular-eslint-template-rules}/no-empty-control-flow.md[@angular-eslint/template/no-empty-control-flow]`
+|
+|
+| Error
+
 | `link:{angular-eslint-template-rules}/no-inline-styles.md[@angular-eslint/template/no-inline-styles]`
 |
 |
@@ -357,6 +377,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `link:{angular-eslint-template-rules}/prefer-at-else.md[@angular-eslint/template/prefer-at-else]`
+|
+|
+| Warning
+
 | `link:{angular-eslint-template-rules}/prefer-at-empty.md[@angular-eslint/template/prefer-at-empty]`
 |
 |
@@ -366,6 +391,11 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 |
 | Warning
+
+| `link:{angular-eslint-template-rules}/prefer-built-in-pipes.md[@angular-eslint/template/prefer-built-in-pipes]`
+|
+|
+| Error
 
 | `link:{angular-eslint-template-rules}/prefer-control-flow.md[@angular-eslint/template/prefer-control-flow]`
 |
