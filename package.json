@@ -34,17 +34,12 @@
         "test": "gulp spec && NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest",
         "test:build": "gulp spec && NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest --clearCache && NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest --collectCoverage"
     },
-    "dependencies": {
-        "@angular-eslint/eslint-plugin": "^18.4.3",
-        "@angular-eslint/eslint-plugin-template": "^18.4.3",
-        "@angular-eslint/template-parser": "^18.4.3",
-        "@angular/compiler": "^18.2.14",
-        "@perfective/eslint-config": "~0.34.0",
-        "eslint": "9.39.2"
-    },
     "peerDependencies": {
         "@angular-eslint/eslint-plugin": "^18.4.3",
         "@angular-eslint/eslint-plugin-template": "^18.4.3",
+        "@angular-eslint/template-parser": "^18.4.3",
+        "@perfective/eslint-config": "~0.34.0",
+        "eslint": "9.39.2",
         "eslint-plugin-rxjs-x": "~0.8.4",
         "eslint-plugin-rxjs-angular-x": "~0.1.1"
     },
