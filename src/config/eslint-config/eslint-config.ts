@@ -2,7 +2,7 @@ import { Linter } from 'eslint';
 
 import { typescriptFiles } from '@perfective/eslint-config';
 
-import { typescriptEslintNamingConvention } from './rules/typescript-eslint';
+import { typescriptEslintNamingConvention } from '../typescript-eslint/rules/typescript-eslint';
 
 export function eslintConfig(): Linter.Config {
     return {
