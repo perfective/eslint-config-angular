@@ -62,13 +62,18 @@ export function angularTemplateConfig(): Linter.Config {
                 allowNgStyle: false,
                 allowBindToStyle: false,
             }],
-            '@angular-eslint/template/no-interpolation-in-attributes': 'error',
+            '@angular-eslint/template/no-interpolation-in-attributes': 'warn',
             // TODO: Fails with "Cannot read property 'start' of undefined
             '@angular-eslint/template/no-negated-async': 'off',
+            '@angular-eslint/template/no-nested-tags': 'off',
             '@angular-eslint/template/no-positive-tabindex': 'error', // == accessibility-tabindex-no-positive
+            '@angular-eslint/template/prefer-at-empty': 'warn',
+            '@angular-eslint/template/prefer-contextual-for-variables': 'warn',
             '@angular-eslint/template/prefer-control-flow': 'error',
             '@angular-eslint/template/prefer-ngsrc': 'error',
             '@angular-eslint/template/prefer-self-closing-tags': 'warn',
+            '@angular-eslint/template/prefer-static-string-properties': 'warn',
+            '@angular-eslint/template/prefer-template-literal': 'warn',
             '@angular-eslint/template/role-has-required-aria': 'error',
             '@angular-eslint/template/table-scope': 'warn',
             '@angular-eslint/template/use-track-by-function': ['error', {

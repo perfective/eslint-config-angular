@@ -78,12 +78,6 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
-| `link:{angular-eslint-rules}/no-host-metadata-property.md[@angular-eslint/no-host-metadata-property]`
-|
-|
-| Off
-4+| Deprecated since v18.0.0
-
 | `link:{angular-eslint-rules}/no-input-prefix.md[@angular-eslint/no-input-prefix]`
 |
 |
@@ -134,7 +128,17 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `link:{angular-eslint-rules}/no-uncalled-signals.md[@angular-eslint/no-uncalled-signals]`
+|
+|
+| Error
+
 | `link:{angular-eslint-rules}/pipe-prefix.md[@angular-eslint/pipe-prefix]`
+|
+|
+| Error
+
+| `link:{angular-eslint-rules}/prefer-inject.md[@angular-eslint/prefer-inject]`
 |
 |
 | Error
@@ -144,17 +148,32 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `link:{angular-eslint-rules}/prefer-output-emitter-ref.md[@angular-eslint/prefer-output-emitter-ref]`
+|
+|
+| Error
+
 | `link:{angular-eslint-rules}/prefer-output-readonly.md[@angular-eslint/prefer-output-readonly]`
 |
 |
 | Error
 
-| `link:{angular-eslint-rules}/prefer-standalone-component.md[@angular-eslint/prefer-standalone-component]`
+| `link:{angular-eslint-rules}/prefer-signals.md[@angular-eslint/prefer-signals]`
+|
+|
+| Warning
+
+| `link:{angular-eslint-rules}/prefer-standalone.md[@angular-eslint/prefer-standalone]`
 | Yes
 |
-| Off
+| Error
 
 | `link:{angular-eslint-rules}/relative-url-prefix.md[@angular-eslint/relative-url-prefix]`
+|
+|
+| Error
+
+| `link:{angular-eslint-rules}/require-lifecycle-on-prototype.md[@angular-eslint/require-lifecycle-on-prototype]`
 |
 |
 | Error
@@ -169,15 +188,15 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 | Error
 
+| `link:{angular-eslint-rules}/sort-keys-in-type-decorator.md[@angular-eslint/sort-keys-in-type-decorator]`
+|
+|
+| Warning
+
 | `link:{angular-eslint-rules}/sort-lifecycle-methods.md[@angular-eslint/sort-lifecycle-methods]`
 |
 |
 | Error
-
-| `link:{angular-eslint-rules}/sort-ngmodule-metadata-arrays.md[@angular-eslint/sort-ngmodule-metadata-arrays]`
-|
-| Yes
-| Warning
 
 | `link:{angular-eslint-rules}/use-component-selector.md[@angular-eslint/use-component-selector]`
 |
@@ -325,7 +344,7 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 | `link:{angular-eslint-template-rules}/no-interpolation-in-attributes.md[@angular-eslint/template/no-interpolation-in-attributes]`
 |
 |
-| Error
+| Warning
 
 | `link:{angular-eslint-template-rules}/no-negated-async.md[@angular-eslint/template/no-negated-async]`
 | Yes
@@ -337,6 +356,16 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 |
 |
 | Error
+
+| `link:{angular-eslint-template-rules}/prefer-at-empty.md[@angular-eslint/template/prefer-at-empty]`
+|
+|
+| Warning
+
+| `link:{angular-eslint-template-rules}/prefer-contextual-for-variables.md[@angular-eslint/template/prefer-contextual-for-variables]`
+|
+|
+| Warning
 
 | `link:{angular-eslint-template-rules}/prefer-control-flow.md[@angular-eslint/template/prefer-control-flow]`
 |
@@ -350,6 +379,16 @@ The `link:https://github.com/angular-eslint/angular-eslint[@angular-eslint]` plu
 
 | `link:{angular-eslint-template-rules}/prefer-self-closing-tags.md[@angular-eslint/template/prefer-self-closing-tags]`
 | Yes
+|
+| Warning
+
+| `link:{angular-eslint-template-rules}/prefer-static-string-properties.md[@angular-eslint/template/prefer-static-string-properties]`
+|
+|
+| Warning
+
+| `link:{angular-eslint-template-rules}/prefer-template-literal.md[@angular-eslint/template/prefer-template-literal]`
+|
 |
 | Warning
 
