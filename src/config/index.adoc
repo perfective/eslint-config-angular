@@ -2,6 +2,8 @@
 
 include::angular-eslint/index.adoc[leveloffset=+1]
 
+include::rxjs-angular/index.adoc[leveloffset=+1]
+
 == `@perfective/eslint-config`
 
 Changes added to the `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`

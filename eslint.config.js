@@ -1,4 +1,6 @@
+import { configurationFiles, jestFiles } from '@perfective/eslint-config';
 import { cypressConfig } from '@perfective/eslint-config/cypress';
+import { importNoExtraneousDependencies } from '@perfective/eslint-config/import';
 import { jestConfig, jestTypescriptConfig } from '@perfective/eslint-config/jest';
 import { jestDomConfig } from '@perfective/eslint-config/jest-dom';
 import { rxjsConfig } from '@perfective/eslint-config/rxjs';
@@ -17,6 +19,14 @@ const eslintConfig = perfectiveEslintAngularConfig([
     jestDomConfig,
     rxjsConfig,
     testingLibraryConfig,
+    {
+        rules: {
+            'import/no-extraneous-dependencies': ['error', importNoExtraneousDependencies({
+                devDependencies: [...jestFiles, ...configurationFiles],
+                peerDependencies: true,
+            })],
+        },
+    },
 ]);
 
 export default eslintConfig;
