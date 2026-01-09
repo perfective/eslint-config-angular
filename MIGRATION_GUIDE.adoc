@@ -10,6 +10,26 @@ Migration between minor versions follows the same steps:
 ** check for the regressions.
 
 
+== From `v0.26.0` to `v0.27.0`
+
+* *Disable and gradually enable new rules*:
++
+.eslint.config.js
+[source,javascript]
+----
+import { perfectiveEslintConfigAngular } from '@perfective/eslint-config-angular';
+
+export default perfectiveEslintConfigAngular([
+    // ...Optional plugins configs...
+    {
+        rules: {
+            '@angular-eslint/prefer-signal-model': 'off',
+        },
+    },
+]);
+----
+
+
 == From `v0.25.0` to `v0.26.0`
 
 * *Disable and gradually enable new rules*:

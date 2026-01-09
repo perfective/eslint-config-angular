@@ -3,6 +3,13 @@
 :eslint-angular-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules
 :eslint-angular-template-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules
 
+== v0.27.0
+
+* Upgraded `@angular-eslint` to `21.1.0`:
+** Enabled the `link:{eslint-angular-rules}/prefer-signal-model.md[@angular-eslint/prefer-signal-model]` rule
+as an error.
+
+
 == v0.26.0
 
 * Upgraded `@angular-eslint` to `20.7.0`:
