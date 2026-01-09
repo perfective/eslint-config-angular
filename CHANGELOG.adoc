@@ -3,6 +3,41 @@
 :eslint-angular-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules
 :eslint-angular-template-rules: https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin-template/docs/rules
 
+== v0.25.0
+
+* Upgraded `@angular-eslint` to `19.8.1`:
+** Enabled the `link:{eslint-angular-rules}/no-uncalled-signals.md[@angular-eslint/no-uncalled-signals]` rule
+as an error.
+** Enabled the `link:{eslint-angular-rules}/prefer-inject.md[@angular-eslint/prefer-inject]` rule
+as an error.
+** Enabled the `link:{eslint-angular-rules}/prefer-output-emitter-ref.md[@angular-eslint/prefer-output-emitter-ref]` rule
+as an error.
+** Enabled the `link:{eslint-angular-rules}/prefer-signals.md[@angular-eslint/prefer-signals]` rule
+as a warning.
+** Enabled the `link:{eslint-angular-rules}/prefer-standalone.md[@angular-eslint/prefer-standalone]` rule
+as an error.
+** Enabled the `link:{eslint-angular-rules}/require-lifecycle-on-prototype.md[@angular-eslint/require-lifecycle-on-prototype]` rule
+as an error.
+** Enabled the `link:{eslint-angular-rules}/sort-keys-in-type-decorator.md[@angular-eslint/sort-keys-in-type-decorator]` rule
+as a warning.
+** Enabled the `link:{eslint-angular-template-rules}/no-nested-tags.md[@angular-eslint/template/no-nested-tags]` rule
+as an error.
+** Enabled the `link:{eslint-angular-template-rules}/prefer-at-empty.md[@angular-eslint/template/prefer-at-empty]` rule
+as a warning.
+** Enabled the `link:{eslint-angular-template-rules}/prefer-contextual-for-variables.md[@angular-eslint/template/prefer-contextual-for-variables]` rule
+as a warning.
+** Enabled the `link:{eslint-angular-template-rules}/prefer-static-string-properties.md[@angular-eslint/template/prefer-static-string-properties]` rule
+as a warning.
+** Enabled the `link:{eslint-angular-template-rules}/prefer-template-literal.md[@angular-eslint/template/prefer-template-literal]` rule
+as a warning.
+** Changed the `link:{eslint-angular-template-rules}/no-interpolation-in-attributes.md[@angular-eslint/template/no-interpolation-in-attributes]`
+rule severity to a warning.
+** Removed deprecated rules:
+*** `@angular-eslint/no-host-metadata-property`
+*** `@angular-eslint/prefer-standalone-component`
+*** `@angular-eslint/sort-ngmodule-metadata-arrays`
+
+
 == v0.24.0
 
 * **Migrated to ESLint v9 with flat configs**.

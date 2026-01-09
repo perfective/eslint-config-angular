@@ -9,6 +9,38 @@ Migration between minor versions follows the same steps:
 ** fix errors or check auto-fixes of warnings;
 ** check for the regressions.
 
+
+== From `v0.24.0` to `v0.25.0`
+
+* *Disable and gradually enable new rules*:
++
+.eslint.config.js
+[source,javascript]
+----
+import { perfectiveEslintConfigAngular } from '@perfective/eslint-config-angular';
+
+export default perfectiveEslintConfigAngular([
+    // ...Optional plugins configs...
+    {
+        rules: {
+            '@angular-eslint/no-uncalled-signals': 'off',
+            '@angular-eslint/prefer-inject': 'off',
+            '@angular-eslint/prefer-output-emitter-ref': 'off',
+            '@angular-eslint/prefer-signals': 'off',
+            '@angular-eslint/prefer-standalone': 'off',
+            '@angular-eslint/require-lifecycle-on-prototype': 'off',
+            '@angular-eslint/sort-keys-in-type-decorator': 'off', // Auto-fixable
+            '@angular-eslint/template/no-nested-tags': 'off',
+            '@angular-eslint/template/prefer-at-empty': 'off',
+            '@angular-eslint/template/prefer-contextual-for-variables': 'off',
+            '@angular-eslint/template/prefer-static-string-properties': 'off',
+            '@angular-eslint/template/prefer-template-literal': 'off',
+        },
+    },
+]);
+----
+
+
 == From `v0.23.0` to `v0.24.0`
 
 * *Migrate to ESLint v9 with flat configs*:
