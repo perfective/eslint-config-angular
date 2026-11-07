@@ -17,7 +17,7 @@ It allows distinguishing errors that have to be fixed manually from issues that 
 
 == Setup
 
-. Require `@perfective/eslint-config-angular` and its peer dependencies as dev dependencies:
+. Require `@perfective/eslint-config-angular`:
 +
 [source,bash]
 ----
@@ -73,7 +73,7 @@ If more directories or file types need to be ignored, see the
 `link:https://eslint.org/docs/latest/use/configure/ignore#the-eslintignore-file[.eslintignore]` file docs.
 
 
-== Packages [#packages]
+== Packages
 
 The following is the list of available packages and their exports.
 

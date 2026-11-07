@@ -75,8 +75,8 @@ to `link:{eslint-config-tags}/v0.34.1[0.34.1]`:
 +
 ** Patched `@angular-eslint` to `18.4.3`.
 +
-* Moved `typescriptEslintNamingConvention` from `@perfective/eslint-config/rules`
-to `@perfective/eslint-config/typescript-eslint.
+* Moved `typescriptEslintNamingConvention` from `@perfective/eslint-config-angular/rules`
+to `@perfective/eslint-config-angular/typescript-eslint.
 +
 * Removed `@perfective/eslint-config/rules` re-exports from `@perfective/eslint-config`:
 +

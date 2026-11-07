@@ -90,7 +90,7 @@ export default perfectiveEslintConfigAngular([
 
 * *Migrate to ESLint v9 with flat configs*:
 +
-** Rename `.eslintrc.js` into `eslint.config.js`.
+** Rename `eslint.config.js` into `eslint.config.js`.
 +
 If your project does not use ESM by default,
 rename `eslint.config.js` into `eslint.config.mjs`.
@@ -155,9 +155,10 @@ For example, change `rxjs-angular/prefer-takeuntil` to `rxjs-angular-x/prefer-ta
 +
 ** All configs are now functions.
 ** Rules functions from `@perfective/eslint-config/rules` are moved into the corresponding config packages.
-** `typescriptEslintNamingConvention` is moved from `@perfective/eslint-config/rules` to `@perfective/eslint-config/typescript-eslint`.
+** `typescriptEslintNamingConvention` is moved from `@perfective/eslint-config-angular/rules`
+to `@perfective/eslint-config-angular/typescript-eslint`.
 +
-* *Re-import the following functions from `@perfective/eslint-config`* (if used):
+* *Import the following functions directly from `@perfective/eslint-config`* (if used):
 +
 ** `cypressImportNoExtraneousDependencies`
 ** `ImportNoExtraneousDependencies`
@@ -176,16 +177,14 @@ For example, change `rxjs-angular/prefer-takeuntil` to `rxjs-angular-x/prefer-ta
 ** `UnicornPreventAbbreviations`
 ** `unicornPreventAbbreviations`
 +
-Import directly from `@perfective/eslint-config` instead, if needed.
-+
 * *Disable and gradually enable new rules*:
 +
 .eslint.config.js
 [source,javascript]
 ----
-import { perfectiveEslintConfigAngular } from '@perfective/eslint-config-angular';
+import { perfectiveEslintAngularConfig } from '@perfective/eslint-config-angular';
 
-const eslintConfig = perfectiveEslintConfigAngular([
+export default perfectiveEslintAngularConfig([
     // ...Optional plugins configs...
     {
         rules: {
@@ -196,15 +195,6 @@ const eslintConfig = perfectiveEslintConfigAngular([
             '@typescript-eslint/no-unnecessary-type-conversion': 'off',
             '@typescript-eslint/no-unused-private-class-members': 'off',
             '@typescript-eslint/no-useless-default-assignment': 'off',
-            'jest/no-error-equal': 'off',
-            'jest/no-unnecessary-assertion': 'off',
-            'jest/no-unneeded-async-expect-function': 'off',
-            'jest/prefer-ending-with-an-expect': 'off',
-            'jest/prefer-mock-return-shorthand': 'off',
-            'jest/prefer-to-have-been-called': 'off',
-            'jest/prefer-to-have-been-called-times': 'off',
-            'jest/valid-expect-with-promise': 'off',
-            'jest/valid-mock-module-path': 'off',
             'jsdoc/escape-inline-tags': 'off',
             'jsdoc/prefer-import-tag': 'off',
             'jsdoc/reject-any-type': 'off',
@@ -223,8 +213,6 @@ const eslintConfig = perfectiveEslintConfigAngular([
             'jsdoc/type-formatting': 'off',
             'n/no-top-level-await': 'off',
             'promise/prefer-catch': 'off',
-            'testing-library/no-test-id-queries': 'off',
-            'testing-library/prefer-user-event-setup': 'off',
             'unicorn/consistent-assert': 'off',
             'unicorn/consistent-date-clone': 'off',
             'unicorn/no-accessor-recursion': 'off',
@@ -236,16 +224,31 @@ const eslintConfig = perfectiveEslintConfigAngular([
             'unicorn/prefer-class-fields': 'off',
             'unicorn/prefer-import-meta-properties': 'off',
             'unicorn/require-module-specifiers': 'off',
+
+            // If eslint-plugin-cypress is used
+            'cypress/no-xpath': 'off',
+
+            // If eslint-plugin-jest is used
+            'jest/no-error-equal': 'off',
+            'jest/no-unnecessary-assertion': 'off',
+            'jest/no-unneeded-async-expect-function': 'off',
+            'jest/prefer-ending-with-an-expect': 'off',
+            'jest/prefer-mock-return-shorthand': 'off',
+            'jest/prefer-to-have-been-called': 'off',
+            'jest/prefer-to-have-been-called-times': 'off',
+            'jest/valid-expect-with-promise': 'off',
+            'jest/valid-mock-module-path': 'off',
+
+            // If eslint-plugin-rxjs-x is used
             'rxjs-x/no-sharereplay-before-takeuntil': 'off',
             'rxjs-x/no-unnecessary-collection': 'off',
 
-            // If eslint-plugin-cypress is installed
-            'cypress/no-xpath': 'off',
+            // If eslint-plugin-testing-library is used
+            'testing-library/no-test-id-queries': 'off',
+            'testing-library/prefer-user-event-setup': 'off',
         },
     },
 ]);
-
-export default eslintConfig;
 ----
 
 
@@ -270,7 +273,7 @@ export default eslintConfig;
 ** `jest-formatting/padding-around-expect-groups` (use `jest/padding-around-expect-groups`)
 ** `jest-formatting/padding-around-test-blocks` (use `jest/padding-around-test-blocks`)
 +
-* Disable and gradually enable new rules in the `.eslintrc.js`.
+* Disable and gradually enable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----
@@ -310,7 +313,7 @@ module.exports = {
 
 == From `v0.22.0` to `v0.22.1`
 
-* Disable and gradually enable new rules in the `.eslintrc.js`.
+* Disable and gradually enable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----
@@ -335,7 +338,7 @@ module.exports = {
 
 * Remove `eslint-plugin-node` from `devDependencies`, if present.
 +
-* Disable and gradually enable new rules in the `.eslintrc.js`.
+* Disable and gradually enable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----
@@ -385,7 +388,7 @@ with `@typescript-eslint/no-unnecessary-template-expression`.
 +
 * Add `@jest/globals` to the `devDependencies` for the `jest/prefer-importing-jest-globals` rule.
 +
-* Disable and gradually enable new rules in the `.eslintrc.js`.
+* Disable and gradually enable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----
@@ -426,7 +429,7 @@ by the https://eslint.style/rules[ESLint Stylistic rules].
 Replace the name of the customized rules with the new rules.
 See Stylistic https://eslint.style/guide/migration[migration] documentation for details.
 +
-* Disable and gradually enable new rules in the `.eslintrc.js`.
+* Disable and gradually enable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----
@@ -452,7 +455,7 @@ module.exports = {
 
 == From `v0.18.1` to `v0.19.2`
 
-* Disable and gradually enable new rules in the `.eslintrc.js`.
+* Disable and gradually enable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----
@@ -475,7 +478,7 @@ module.exports = {
 
 == From `v0.17.0` to `v0.18.1`
 
-* Disable and gradually enable new rules in the `.eslintrc.js`.
+* Disable and gradually enable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----
@@ -537,7 +540,7 @@ if you have any.
 ** Replace `testing-library/no-render-in-setup` with `testing-library/no-render-in-lifecycle`.
 +
 
-* Disable new rules in the `.eslintrc.js`.
+* Disable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----

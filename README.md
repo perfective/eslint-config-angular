@@ -16,7 +16,7 @@ It allows distinguishing errors that have to be fixed manually from issues that 
 
 ## Setup
 
-1. Require `@perfective/eslint-config-angular` and its peer dependencies as dev dependencies:
+1. Require `@perfective/eslint-config-angular`:
 
     ```bash
     npm install --save-dev @perfective/eslint-config-angular
