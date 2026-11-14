@@ -17,9 +17,9 @@ Migration between minor versions follows the same steps:
 .eslint.config.js
 [source,javascript]
 ----
-import { perfectiveEslintConfigAngular } from '@perfective/eslint-config-angular';
+import { perfectiveEslintAngularConfig } from '@perfective/eslint-config-angular';
 
-export default perfectiveEslintConfigAngular([
+export default perfectiveEslintAngularConfig([
     // ...Optional plugins configs...
     {
         rules: {
@@ -37,9 +37,9 @@ export default perfectiveEslintConfigAngular([
 .eslint.config.js
 [source,javascript]
 ----
-import { perfectiveEslintConfigAngular } from '@perfective/eslint-config-angular';
+import { perfectiveEslintAngularConfig } from '@perfective/eslint-config-angular';
 
-export default perfectiveEslintConfigAngular([
+export default perfectiveEslintAngularConfig([
     // ...Optional plugins configs...
     {
         rules: {
@@ -62,9 +62,9 @@ export default perfectiveEslintConfigAngular([
 .eslint.config.js
 [source,javascript]
 ----
-import { perfectiveEslintConfigAngular } from '@perfective/eslint-config-angular';
+import { perfectiveEslintAngularConfig } from '@perfective/eslint-config-angular';
 
-export default perfectiveEslintConfigAngular([
+export default perfectiveEslintAngularConfig([
     // ...Optional plugins configs...
     {
         rules: {
@@ -110,14 +110,14 @@ module.exports = {
 .After
 [source,javascript]
 ----
-import { perfectiveEslintConfigAngular } from '@perfective/eslint-config-angular';
+import { perfectiveEslintAngularConfig } from '@perfective/eslint-config-angular';
 // Optional dependencies.
 import { cypressConfig } from '@perfective/eslint-config/cypress';
 import { jestConfig, jestTypescriptConfig } from '@perfective/eslint-config/jest';
 import { jestDomConfig } from '@perfective/eslint-config/jest-dom';
 import { testingLibraryConfig } from '@perfective/eslint-config/testing-library';
 
-export default perfectiveEslintConfigAngular([
+export default perfectiveEslintAngularConfig([
     cypressConfig,
     jestConfig,
     jestTypescriptConfig,
